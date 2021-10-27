@@ -1,7 +1,15 @@
-const { TypeScriptProject } = require('projen');
+import { TypeScriptProject } from "projen";
+
 const project = new TypeScriptProject({
-  defaultReleaseBranch: 'main',
-  name: 'projen-lambda-http-handler-rs',
+  defaultReleaseBranch: "main",
+  name: "@svelte-up/projen-lambda-http-handler-rs",
+  authorName: "Michael Edelman",
+  authorEmail: "michael@svelteup.io",
+  authorUrl: "https://twitter.com/edelman215",
+
+  deps: ["projen"],
+  devDeps: ["projen"],
+  peerDeps: ["projen"],
 
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
