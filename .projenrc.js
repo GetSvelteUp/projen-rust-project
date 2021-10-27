@@ -3,9 +3,10 @@ const { TypeScriptProject, NpmAccess, JsiiProject } = require('projen');
 const project = new JsiiProject({
   defaultReleaseBranch: 'main',
   name: '@svelte-up/projen-rust-project',
-  authorName: 'Michael Edelman',
+  authorName: 'GetSvelteUp',
   authorEmail: 'michael@svelteup.io',
   authorUrl: 'https://twitter.com/edelman215',
+  authorOrganization: true,
   repository: 'https://github.com/GetSvelteUp/projen-rust-project.git',
 
   deps: ['projen', 'fs-extra'],

@@ -26,10 +26,10 @@
     "projen": "npx projen"
   },
   "author": {
-    "name": "Michael Edelman",
+    "name": "GetSvelteUp",
     "email": "michael@svelteup.io",
     "url": "https://twitter.com/edelman215",
-    "organization": false
+    "organization": true
   },
   "devDependencies": {
     "@types/fs-extra": "^8",
