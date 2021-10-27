@@ -37,6 +37,7 @@ junit.xml
 /dist/changelog.md
 /dist/version.txt
 !/.mergify.yml
+!/.github/dependabot.yml
 !/.github/pull_request_template.md
 !/test/
 !/tsconfig.json
@@ -46,4 +47,3 @@ junit.xml
 /dist/
 !/.eslintrc.json
 !/.github/workflows/release.yml
-!/.github/workflows/upgrade-main.yml

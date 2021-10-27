@@ -10,7 +10,12 @@ const project = new TypeScriptProject({
   devDeps: ['projen'],
   peerDeps: ['projen'],
 
+  releaseToNpm: true,
   npmAccess: NpmAccess.PUBLIC,
+
+  docgen: true,
+  codeCov: true,
+  dependabot: true,
 
   npmDistTag: 'latest',
   npmRegistryUrl: 'https://npm.pkg.github.com',
@@ -21,4 +26,7 @@ const project = new TypeScriptProject({
   // packageName: undefined,  /* The "name" in package.json. */
   // release: undefined,      /* Add release management to this project. */
 });
+
+project.addFields({ publishConfig: { access: 'public' } });
+
 project.synth();
