@@ -1,14 +1,17 @@
-const { TypeScriptProject, NpmAccess } = require('projen');
-const project = new TypeScriptProject({
+const { TypeScriptProject, NpmAccess, JsiiProject } = require('projen');
+
+const project = new JsiiProject({
   defaultReleaseBranch: 'main',
-  name: '@svelte-up/projen-lambda-http-handler-rs',
+  name: '@svelte-up/projen-rust-project',
   authorName: 'Michael Edelman',
   authorEmail: 'michael@svelteup.io',
   authorUrl: 'https://twitter.com/edelman215',
+  repository: 'https://github.com/GetSvelteUp/projen-rust-lambda.git',
 
-  deps: ['projen'],
-  devDeps: ['projen'],
+  deps: ['projen', 'fs-extra'],
+  devDeps: ['@types/fs-extra@^8', 'projen'],
   peerDeps: ['projen'],
+  bundledDeps: ['fs-extra'],
 
   releaseToNpm: true,
   npmAccess: NpmAccess.PUBLIC,

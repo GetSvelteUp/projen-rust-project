@@ -38,6 +38,8 @@ jobs:
         with:
           name: dist
           path: dist
+    container:
+      image: jsii/superchain:1-buster-slim
   release_github:
     name: Publish to GitHub Releases
     needs: release

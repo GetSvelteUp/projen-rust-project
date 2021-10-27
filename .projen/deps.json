@@ -1,6 +1,11 @@
 {
   "dependencies": [
     {
+      "name": "@types/fs-extra",
+      "version": "^8",
+      "type": "build"
+    },
+    {
       "name": "@types/jest",
       "type": "build"
     },
@@ -43,6 +48,22 @@
       "type": "build"
     },
     {
+      "name": "jsii",
+      "type": "build"
+    },
+    {
+      "name": "jsii-diff",
+      "type": "build"
+    },
+    {
+      "name": "jsii-docgen",
+      "type": "build"
+    },
+    {
+      "name": "jsii-pacmak",
+      "type": "build"
+    },
+    {
       "name": "json-schema",
       "type": "build"
     },
@@ -65,17 +86,20 @@
       "type": "build"
     },
     {
-      "name": "typedoc",
-      "version": "^0.21.4",
-      "type": "build"
-    },
-    {
       "name": "typescript",
       "type": "build"
     },
     {
+      "name": "fs-extra",
+      "type": "bundled"
+    },
+    {
       "name": "projen",
       "type": "peer"
+    },
+    {
+      "name": "fs-extra",
+      "type": "runtime"
     },
     {
       "name": "projen",
