@@ -2,7 +2,7 @@
   "name": "@svelte-up/projen-rust-project",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GetSvelteUp/projen-rust-lambda.git"
+    "url": "https://github.com/GetSvelteUp/projen-rust-project.git"
   },
   "scripts": {
     "clobber": "npx projen clobber",

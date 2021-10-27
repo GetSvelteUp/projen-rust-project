@@ -6,7 +6,7 @@ const project = new JsiiProject({
   authorName: 'Michael Edelman',
   authorEmail: 'michael@svelteup.io',
   authorUrl: 'https://twitter.com/edelman215',
-  repository: 'https://github.com/GetSvelteUp/projen-rust-lambda.git',
+  repository: 'https://github.com/GetSvelteUp/projen-rust-project.git',
 
   deps: ['projen', 'fs-extra'],
   devDeps: ['@types/fs-extra@^8', 'projen'],
@@ -22,6 +22,7 @@ const project = new JsiiProject({
 
   npmDistTag: 'latest',
   npmRegistryUrl: 'https://npm.pkg.github.com',
+  npmTokenSecret: 'NPM_REGISTRY_TOKEN',
 
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
