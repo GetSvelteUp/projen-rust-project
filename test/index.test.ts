@@ -1,10 +1,10 @@
-import { RustLambdaHttpEventHandler } from "../src";
+import { RustLambdaHttpEventHandler } from '../src';
 
-test("RustLambdaHttpEventHandler", () => {
+test('RustLambdaHttpEventHandler', () => {
   const project = new RustLambdaHttpEventHandler({
-    name: "test",
-    defaultReleaseBranch: "main",
+    name: 'test',
+    defaultReleaseBranch: 'main',
   });
-  expect(project.srcdir).toEqual("src");
-  expect(project.libdir).toEqual("lib");
+  expect(project.srcdir).toEqual('src');
+  expect(project.libdir).toEqual('lib');
 });

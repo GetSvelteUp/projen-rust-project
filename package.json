@@ -52,6 +52,10 @@
   "bundledDependencies": [],
   "main": "lib/index.js",
   "license": "Apache-2.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
+  },
   "version": "0.0.0",
   "jest": {
     "testMatch": [

@@ -1,4 +1,4 @@
-import { TypeScriptAppProject, TypeScriptProjectOptions } from "projen";
+import { TypeScriptAppProject, TypeScriptProjectOptions } from 'projen';
 
 export interface RustLambdaHttpEventHandlerOptions
   extends TypeScriptProjectOptions {}
