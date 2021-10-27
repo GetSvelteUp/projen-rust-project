@@ -22,7 +22,7 @@ const project = new JsiiProject({
 
   npmDistTag: 'latest',
   npmRegistryUrl: 'https://npm.pkg.github.com',
-  npmTokenSecret: 'NPM_REGISTRY_TOKEN',
+  npmTokenSecret: 'NPM_TOKEN',
 
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
