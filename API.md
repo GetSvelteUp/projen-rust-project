@@ -3,127 +3,127 @@
 
 ## Structs <a name="Structs"></a>
 
-### CargoManifest <a name="@GetSvelteUp/projen-rust-project.CargoManifest"></a>
+### CargoManifest <a name="@getsvelteup/projen-rust-project.CargoManifest"></a>
 
 #### Initializer <a name="[object Object].Initializer"></a>
 
 ```typescript
-import { CargoManifest } from '@GetSvelteUp/projen-rust-project'
+import { CargoManifest } from '@getsvelteup/projen-rust-project'
 
 const cargoManifest: CargoManifest = { ... }
 ```
 
-##### `package`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifest.property.package"></a>
+##### `package`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.CargoManifest.property.package"></a>
 
 ```typescript
 public readonly package: CargoManifestPackage;
 ```
 
-- *Type:* [`@GetSvelteUp/projen-rust-project.CargoManifestPackage`](#@GetSvelteUp/projen-rust-project.CargoManifestPackage)
+- *Type:* [`@getsvelteup/projen-rust-project.CargoManifestPackage`](#@getsvelteup/projen-rust-project.CargoManifestPackage)
 
 ---
 
-##### `bench`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifest.property.bench"></a>
+##### `bench`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifest.property.bench"></a>
 
 ```typescript
 public readonly bench: CargoManifestBench[];
 ```
 
-- *Type:* [`@GetSvelteUp/projen-rust-project.CargoManifestBench`](#@GetSvelteUp/projen-rust-project.CargoManifestBench)[]
+- *Type:* [`@getsvelteup/projen-rust-project.CargoManifestBench`](#@getsvelteup/projen-rust-project.CargoManifestBench)[]
 
 ---
 
-##### `bin`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifest.property.bin"></a>
+##### `bin`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifest.property.bin"></a>
 
 ```typescript
 public readonly bin: CargoManifestBin[];
 ```
 
-- *Type:* [`@GetSvelteUp/projen-rust-project.CargoManifestBin`](#@GetSvelteUp/projen-rust-project.CargoManifestBin)[]
+- *Type:* [`@getsvelteup/projen-rust-project.CargoManifestBin`](#@getsvelteup/projen-rust-project.CargoManifestBin)[]
 
 ---
 
-##### `buildDependencies`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifest.property.buildDependencies"></a>
+##### `buildDependencies`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifest.property.buildDependencies"></a>
 
 ```typescript
 public readonly buildDependencies: CargoManifestDependencies;
 ```
 
-- *Type:* [`@GetSvelteUp/projen-rust-project.CargoManifestDependencies`](#@GetSvelteUp/projen-rust-project.CargoManifestDependencies)
+- *Type:* [`@getsvelteup/projen-rust-project.CargoManifestDependencies`](#@getsvelteup/projen-rust-project.CargoManifestDependencies)
 
 ---
 
-##### `dependencies`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifest.property.dependencies"></a>
+##### `dependencies`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifest.property.dependencies"></a>
 
 ```typescript
 public readonly dependencies: CargoManifestDependencies;
 ```
 
-- *Type:* [`@GetSvelteUp/projen-rust-project.CargoManifestDependencies`](#@GetSvelteUp/projen-rust-project.CargoManifestDependencies)
+- *Type:* [`@getsvelteup/projen-rust-project.CargoManifestDependencies`](#@getsvelteup/projen-rust-project.CargoManifestDependencies)
 
 ---
 
-##### `devDependencies`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifest.property.devDependencies"></a>
+##### `devDependencies`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifest.property.devDependencies"></a>
 
 ```typescript
 public readonly devDependencies: CargoManifestDependencies;
 ```
 
-- *Type:* [`@GetSvelteUp/projen-rust-project.CargoManifestDependencies`](#@GetSvelteUp/projen-rust-project.CargoManifestDependencies)
+- *Type:* [`@getsvelteup/projen-rust-project.CargoManifestDependencies`](#@getsvelteup/projen-rust-project.CargoManifestDependencies)
 
 ---
 
-##### `example`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifest.property.example"></a>
+##### `example`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifest.property.example"></a>
 
 ```typescript
 public readonly example: CargoManifestExample[];
 ```
 
-- *Type:* [`@GetSvelteUp/projen-rust-project.CargoManifestExample`](#@GetSvelteUp/projen-rust-project.CargoManifestExample)[]
+- *Type:* [`@getsvelteup/projen-rust-project.CargoManifestExample`](#@getsvelteup/projen-rust-project.CargoManifestExample)[]
 
 ---
 
-##### `lib`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifest.property.lib"></a>
+##### `lib`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifest.property.lib"></a>
 
 ```typescript
 public readonly lib: CargoManifestLib;
 ```
 
-- *Type:* [`@GetSvelteUp/projen-rust-project.CargoManifestLib`](#@GetSvelteUp/projen-rust-project.CargoManifestLib)
+- *Type:* [`@getsvelteup/projen-rust-project.CargoManifestLib`](#@getsvelteup/projen-rust-project.CargoManifestLib)
 
 ---
 
-##### `profile`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifest.property.profile"></a>
+##### `profile`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifest.property.profile"></a>
 
 ```typescript
 public readonly profile: {[ key: string ]: CargoManifestProfileCommonSettings};
 ```
 
-- *Type:* {[ key: string ]: [`@GetSvelteUp/projen-rust-project.CargoManifestProfileCommonSettings`](#@GetSvelteUp/projen-rust-project.CargoManifestProfileCommonSettings)}
+- *Type:* {[ key: string ]: [`@getsvelteup/projen-rust-project.CargoManifestProfileCommonSettings`](#@getsvelteup/projen-rust-project.CargoManifestProfileCommonSettings)}
 
 ---
 
-##### `test`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifest.property.test"></a>
+##### `test`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifest.property.test"></a>
 
 ```typescript
 public readonly test: CargoManifestTest[];
 ```
 
-- *Type:* [`@GetSvelteUp/projen-rust-project.CargoManifestTest`](#@GetSvelteUp/projen-rust-project.CargoManifestTest)[]
+- *Type:* [`@getsvelteup/projen-rust-project.CargoManifestTest`](#@getsvelteup/projen-rust-project.CargoManifestTest)[]
 
 ---
 
-### CargoManifestBench <a name="@GetSvelteUp/projen-rust-project.CargoManifestBench"></a>
+### CargoManifestBench <a name="@getsvelteup/projen-rust-project.CargoManifestBench"></a>
 
 #### Initializer <a name="[object Object].Initializer"></a>
 
 ```typescript
-import { CargoManifestBench } from '@GetSvelteUp/projen-rust-project'
+import { CargoManifestBench } from '@getsvelteup/projen-rust-project'
 
 const cargoManifestBench: CargoManifestBench = { ... }
 ```
 
-##### `name`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestBench.property.name"></a>
+##### `name`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestBench.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -133,7 +133,7 @@ public readonly name: string;
 
 ---
 
-##### `bench`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestBench.property.bench"></a>
+##### `bench`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestBench.property.bench"></a>
 
 ```typescript
 public readonly bench: boolean;
@@ -143,7 +143,7 @@ public readonly bench: boolean;
 
 ---
 
-##### `doc`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestBench.property.doc"></a>
+##### `doc`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestBench.property.doc"></a>
 
 ```typescript
 public readonly doc: boolean;
@@ -153,7 +153,7 @@ public readonly doc: boolean;
 
 ---
 
-##### `doctest`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestBench.property.doctest"></a>
+##### `doctest`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestBench.property.doctest"></a>
 
 ```typescript
 public readonly doctest: boolean;
@@ -163,7 +163,7 @@ public readonly doctest: boolean;
 
 ---
 
-##### `edition`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestBench.property.edition"></a>
+##### `edition`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestBench.property.edition"></a>
 
 ```typescript
 public readonly edition: string;
@@ -173,7 +173,7 @@ public readonly edition: string;
 
 ---
 
-##### `harness`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestBench.property.harness"></a>
+##### `harness`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestBench.property.harness"></a>
 
 ```typescript
 public readonly harness: boolean;
@@ -183,7 +183,7 @@ public readonly harness: boolean;
 
 ---
 
-##### `path`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestBench.property.path"></a>
+##### `path`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestBench.property.path"></a>
 
 ```typescript
 public readonly path: string;
@@ -193,7 +193,7 @@ public readonly path: string;
 
 ---
 
-##### `plugin`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestBench.property.plugin"></a>
+##### `plugin`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestBench.property.plugin"></a>
 
 ```typescript
 public readonly plugin: boolean;
@@ -203,7 +203,7 @@ public readonly plugin: boolean;
 
 ---
 
-##### `test`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestBench.property.test"></a>
+##### `test`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestBench.property.test"></a>
 
 ```typescript
 public readonly test: boolean;
@@ -213,17 +213,17 @@ public readonly test: boolean;
 
 ---
 
-### CargoManifestBin <a name="@GetSvelteUp/projen-rust-project.CargoManifestBin"></a>
+### CargoManifestBin <a name="@getsvelteup/projen-rust-project.CargoManifestBin"></a>
 
 #### Initializer <a name="[object Object].Initializer"></a>
 
 ```typescript
-import { CargoManifestBin } from '@GetSvelteUp/projen-rust-project'
+import { CargoManifestBin } from '@getsvelteup/projen-rust-project'
 
 const cargoManifestBin: CargoManifestBin = { ... }
 ```
 
-##### `name`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestBin.property.name"></a>
+##### `name`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestBin.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -233,7 +233,7 @@ public readonly name: string;
 
 ---
 
-##### `bench`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestBin.property.bench"></a>
+##### `bench`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestBin.property.bench"></a>
 
 ```typescript
 public readonly bench: boolean;
@@ -243,7 +243,7 @@ public readonly bench: boolean;
 
 ---
 
-##### `doc`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestBin.property.doc"></a>
+##### `doc`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestBin.property.doc"></a>
 
 ```typescript
 public readonly doc: boolean;
@@ -253,7 +253,7 @@ public readonly doc: boolean;
 
 ---
 
-##### `doctest`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestBin.property.doctest"></a>
+##### `doctest`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestBin.property.doctest"></a>
 
 ```typescript
 public readonly doctest: boolean;
@@ -263,7 +263,7 @@ public readonly doctest: boolean;
 
 ---
 
-##### `edition`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestBin.property.edition"></a>
+##### `edition`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestBin.property.edition"></a>
 
 ```typescript
 public readonly edition: string;
@@ -273,7 +273,7 @@ public readonly edition: string;
 
 ---
 
-##### `harness`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestBin.property.harness"></a>
+##### `harness`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestBin.property.harness"></a>
 
 ```typescript
 public readonly harness: boolean;
@@ -283,7 +283,7 @@ public readonly harness: boolean;
 
 ---
 
-##### `path`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestBin.property.path"></a>
+##### `path`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestBin.property.path"></a>
 
 ```typescript
 public readonly path: string;
@@ -293,7 +293,7 @@ public readonly path: string;
 
 ---
 
-##### `plugin`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestBin.property.plugin"></a>
+##### `plugin`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestBin.property.plugin"></a>
 
 ```typescript
 public readonly plugin: boolean;
@@ -303,7 +303,7 @@ public readonly plugin: boolean;
 
 ---
 
-##### `test`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestBin.property.test"></a>
+##### `test`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestBin.property.test"></a>
 
 ```typescript
 public readonly test: boolean;
@@ -313,27 +313,27 @@ public readonly test: boolean;
 
 ---
 
-### CargoManifestDependencies <a name="@GetSvelteUp/projen-rust-project.CargoManifestDependencies"></a>
+### CargoManifestDependencies <a name="@getsvelteup/projen-rust-project.CargoManifestDependencies"></a>
 
 #### Initializer <a name="[object Object].Initializer"></a>
 
 ```typescript
-import { CargoManifestDependencies } from '@GetSvelteUp/projen-rust-project'
+import { CargoManifestDependencies } from '@getsvelteup/projen-rust-project'
 
 const cargoManifestDependencies: CargoManifestDependencies = { ... }
 ```
 
-### CargoManifestExample <a name="@GetSvelteUp/projen-rust-project.CargoManifestExample"></a>
+### CargoManifestExample <a name="@getsvelteup/projen-rust-project.CargoManifestExample"></a>
 
 #### Initializer <a name="[object Object].Initializer"></a>
 
 ```typescript
-import { CargoManifestExample } from '@GetSvelteUp/projen-rust-project'
+import { CargoManifestExample } from '@getsvelteup/projen-rust-project'
 
 const cargoManifestExample: CargoManifestExample = { ... }
 ```
 
-##### `name`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestExample.property.name"></a>
+##### `name`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestExample.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -343,7 +343,7 @@ public readonly name: string;
 
 ---
 
-##### `bench`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestExample.property.bench"></a>
+##### `bench`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestExample.property.bench"></a>
 
 ```typescript
 public readonly bench: boolean;
@@ -353,7 +353,7 @@ public readonly bench: boolean;
 
 ---
 
-##### `doc`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestExample.property.doc"></a>
+##### `doc`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestExample.property.doc"></a>
 
 ```typescript
 public readonly doc: boolean;
@@ -363,7 +363,7 @@ public readonly doc: boolean;
 
 ---
 
-##### `doctest`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestExample.property.doctest"></a>
+##### `doctest`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestExample.property.doctest"></a>
 
 ```typescript
 public readonly doctest: boolean;
@@ -373,7 +373,7 @@ public readonly doctest: boolean;
 
 ---
 
-##### `edition`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestExample.property.edition"></a>
+##### `edition`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestExample.property.edition"></a>
 
 ```typescript
 public readonly edition: string;
@@ -383,7 +383,7 @@ public readonly edition: string;
 
 ---
 
-##### `harness`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestExample.property.harness"></a>
+##### `harness`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestExample.property.harness"></a>
 
 ```typescript
 public readonly harness: boolean;
@@ -393,7 +393,7 @@ public readonly harness: boolean;
 
 ---
 
-##### `path`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestExample.property.path"></a>
+##### `path`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestExample.property.path"></a>
 
 ```typescript
 public readonly path: string;
@@ -403,7 +403,7 @@ public readonly path: string;
 
 ---
 
-##### `plugin`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestExample.property.plugin"></a>
+##### `plugin`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestExample.property.plugin"></a>
 
 ```typescript
 public readonly plugin: boolean;
@@ -413,7 +413,7 @@ public readonly plugin: boolean;
 
 ---
 
-##### `test`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestExample.property.test"></a>
+##### `test`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestExample.property.test"></a>
 
 ```typescript
 public readonly test: boolean;
@@ -423,17 +423,17 @@ public readonly test: boolean;
 
 ---
 
-### CargoManifestLib <a name="@GetSvelteUp/projen-rust-project.CargoManifestLib"></a>
+### CargoManifestLib <a name="@getsvelteup/projen-rust-project.CargoManifestLib"></a>
 
 #### Initializer <a name="[object Object].Initializer"></a>
 
 ```typescript
-import { CargoManifestLib } from '@GetSvelteUp/projen-rust-project'
+import { CargoManifestLib } from '@getsvelteup/projen-rust-project'
 
 const cargoManifestLib: CargoManifestLib = { ... }
 ```
 
-##### `name`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestLib.property.name"></a>
+##### `name`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestLib.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -443,7 +443,7 @@ public readonly name: string;
 
 ---
 
-##### `bench`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestLib.property.bench"></a>
+##### `bench`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestLib.property.bench"></a>
 
 ```typescript
 public readonly bench: boolean;
@@ -453,7 +453,7 @@ public readonly bench: boolean;
 
 ---
 
-##### `doc`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestLib.property.doc"></a>
+##### `doc`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestLib.property.doc"></a>
 
 ```typescript
 public readonly doc: boolean;
@@ -463,7 +463,7 @@ public readonly doc: boolean;
 
 ---
 
-##### `doctest`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestLib.property.doctest"></a>
+##### `doctest`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestLib.property.doctest"></a>
 
 ```typescript
 public readonly doctest: boolean;
@@ -473,7 +473,7 @@ public readonly doctest: boolean;
 
 ---
 
-##### `edition`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestLib.property.edition"></a>
+##### `edition`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestLib.property.edition"></a>
 
 ```typescript
 public readonly edition: string;
@@ -483,7 +483,7 @@ public readonly edition: string;
 
 ---
 
-##### `harness`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestLib.property.harness"></a>
+##### `harness`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestLib.property.harness"></a>
 
 ```typescript
 public readonly harness: boolean;
@@ -493,7 +493,7 @@ public readonly harness: boolean;
 
 ---
 
-##### `path`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestLib.property.path"></a>
+##### `path`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestLib.property.path"></a>
 
 ```typescript
 public readonly path: string;
@@ -503,7 +503,7 @@ public readonly path: string;
 
 ---
 
-##### `plugin`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestLib.property.plugin"></a>
+##### `plugin`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestLib.property.plugin"></a>
 
 ```typescript
 public readonly plugin: boolean;
@@ -513,7 +513,7 @@ public readonly plugin: boolean;
 
 ---
 
-##### `test`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestLib.property.test"></a>
+##### `test`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestLib.property.test"></a>
 
 ```typescript
 public readonly test: boolean;
@@ -523,17 +523,17 @@ public readonly test: boolean;
 
 ---
 
-### CargoManifestPackage <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage"></a>
+### CargoManifestPackage <a name="@getsvelteup/projen-rust-project.CargoManifestPackage"></a>
 
 #### Initializer <a name="[object Object].Initializer"></a>
 
 ```typescript
-import { CargoManifestPackage } from '@GetSvelteUp/projen-rust-project'
+import { CargoManifestPackage } from '@getsvelteup/projen-rust-project'
 
 const cargoManifestPackage: CargoManifestPackage = { ... }
 ```
 
-##### `name`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.name"></a>
+##### `name`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -543,7 +543,7 @@ public readonly name: string;
 
 ---
 
-##### `version`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.version"></a>
+##### `version`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.version"></a>
 
 ```typescript
 public readonly version: string;
@@ -553,7 +553,7 @@ public readonly version: string;
 
 ---
 
-##### `authors`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.authors"></a>
+##### `authors`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.authors"></a>
 
 ```typescript
 public readonly authors: string[];
@@ -563,7 +563,7 @@ public readonly authors: string[];
 
 ---
 
-##### `autobenches`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.autobenches"></a>
+##### `autobenches`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.autobenches"></a>
 
 ```typescript
 public readonly autobenches: boolean;
@@ -573,7 +573,7 @@ public readonly autobenches: boolean;
 
 ---
 
-##### `autobins`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.autobins"></a>
+##### `autobins`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.autobins"></a>
 
 ```typescript
 public readonly autobins: boolean;
@@ -583,7 +583,7 @@ public readonly autobins: boolean;
 
 ---
 
-##### `autoexamples`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.autoexamples"></a>
+##### `autoexamples`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.autoexamples"></a>
 
 ```typescript
 public readonly autoexamples: boolean;
@@ -593,7 +593,7 @@ public readonly autoexamples: boolean;
 
 ---
 
-##### `autotests`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.autotests"></a>
+##### `autotests`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.autotests"></a>
 
 ```typescript
 public readonly autotests: boolean;
@@ -603,7 +603,7 @@ public readonly autotests: boolean;
 
 ---
 
-##### `categories`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.categories"></a>
+##### `categories`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.categories"></a>
 
 ```typescript
 public readonly categories: string[];
@@ -613,7 +613,7 @@ public readonly categories: string[];
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -623,7 +623,7 @@ public readonly description: string;
 
 ---
 
-##### `documentation`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.documentation"></a>
+##### `documentation`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.documentation"></a>
 
 ```typescript
 public readonly documentation: string;
@@ -633,7 +633,7 @@ public readonly documentation: string;
 
 ---
 
-##### `edition`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.edition"></a>
+##### `edition`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.edition"></a>
 
 ```typescript
 public readonly edition: string;
@@ -643,7 +643,7 @@ public readonly edition: string;
 
 ---
 
-##### `exclude`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.exclude"></a>
+##### `exclude`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.exclude"></a>
 
 ```typescript
 public readonly exclude: string[];
@@ -653,7 +653,7 @@ public readonly exclude: string[];
 
 ---
 
-##### `homepage`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.homepage"></a>
+##### `homepage`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.homepage"></a>
 
 ```typescript
 public readonly homepage: string;
@@ -663,7 +663,7 @@ public readonly homepage: string;
 
 ---
 
-##### `include`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.include"></a>
+##### `include`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.include"></a>
 
 ```typescript
 public readonly include: string[];
@@ -673,7 +673,7 @@ public readonly include: string[];
 
 ---
 
-##### `keywords`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.keywords"></a>
+##### `keywords`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.keywords"></a>
 
 ```typescript
 public readonly keywords: string[];
@@ -683,7 +683,7 @@ public readonly keywords: string[];
 
 ---
 
-##### `license`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.license"></a>
+##### `license`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.license"></a>
 
 ```typescript
 public readonly license: string;
@@ -693,7 +693,7 @@ public readonly license: string;
 
 ---
 
-##### `links`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.links"></a>
+##### `links`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.links"></a>
 
 ```typescript
 public readonly links: string[];
@@ -703,7 +703,7 @@ public readonly links: string[];
 
 ---
 
-##### `metadata`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.metadata"></a>
+##### `metadata`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.metadata"></a>
 
 ```typescript
 public readonly metadata: string[];
@@ -713,7 +713,7 @@ public readonly metadata: string[];
 
 ---
 
-##### `publish`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.publish"></a>
+##### `publish`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.publish"></a>
 
 ```typescript
 public readonly publish: string[];
@@ -723,7 +723,7 @@ public readonly publish: string[];
 
 ---
 
-##### `readme`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.readme"></a>
+##### `readme`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.readme"></a>
 
 ```typescript
 public readonly readme: string;
@@ -733,7 +733,7 @@ public readonly readme: string;
 
 ---
 
-##### `repository`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.repository"></a>
+##### `repository`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.repository"></a>
 
 ```typescript
 public readonly repository: string;
@@ -743,7 +743,7 @@ public readonly repository: string;
 
 ---
 
-##### `resolver`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.resolver"></a>
+##### `resolver`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.resolver"></a>
 
 ```typescript
 public readonly resolver: string;
@@ -753,7 +753,7 @@ public readonly resolver: string;
 
 ---
 
-##### `workspace`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestPackage.property.workspace"></a>
+##### `workspace`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestPackage.property.workspace"></a>
 
 ```typescript
 public readonly workspace: string;
@@ -763,17 +763,17 @@ public readonly workspace: string;
 
 ---
 
-### CargoManifestProfileCommonSettings <a name="@GetSvelteUp/projen-rust-project.CargoManifestProfileCommonSettings"></a>
+### CargoManifestProfileCommonSettings <a name="@getsvelteup/projen-rust-project.CargoManifestProfileCommonSettings"></a>
 
 #### Initializer <a name="[object Object].Initializer"></a>
 
 ```typescript
-import { CargoManifestProfileCommonSettings } from '@GetSvelteUp/projen-rust-project'
+import { CargoManifestProfileCommonSettings } from '@getsvelteup/projen-rust-project'
 
 const cargoManifestProfileCommonSettings: CargoManifestProfileCommonSettings = { ... }
 ```
 
-##### `debug`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestProfileCommonSettings.property.debug"></a>
+##### `debug`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestProfileCommonSettings.property.debug"></a>
 
 ```typescript
 public readonly debug: boolean | number;
@@ -783,7 +783,7 @@ public readonly debug: boolean | number;
 
 ---
 
-##### `incremental`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestProfileCommonSettings.property.incremental"></a>
+##### `incremental`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestProfileCommonSettings.property.incremental"></a>
 
 ```typescript
 public readonly incremental: boolean;
@@ -793,7 +793,7 @@ public readonly incremental: boolean;
 
 ---
 
-##### `lto`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestProfileCommonSettings.property.lto"></a>
+##### `lto`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestProfileCommonSettings.property.lto"></a>
 
 ```typescript
 public readonly lto: string;
@@ -803,17 +803,17 @@ public readonly lto: string;
 
 ---
 
-##### `package`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestProfileCommonSettings.property.package"></a>
+##### `package`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestProfileCommonSettings.property.package"></a>
 
 ```typescript
 public readonly package: {[ key: string ]: CargoManifestProfileCommonSettings};
 ```
 
-- *Type:* {[ key: string ]: [`@GetSvelteUp/projen-rust-project.CargoManifestProfileCommonSettings`](#@GetSvelteUp/projen-rust-project.CargoManifestProfileCommonSettings)}
+- *Type:* {[ key: string ]: [`@getsvelteup/projen-rust-project.CargoManifestProfileCommonSettings`](#@getsvelteup/projen-rust-project.CargoManifestProfileCommonSettings)}
 
 ---
 
-##### `panic`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestProfileCommonSettings.property.panic"></a>
+##### `panic`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestProfileCommonSettings.property.panic"></a>
 
 ```typescript
 public readonly panic: string;
@@ -823,7 +823,7 @@ public readonly panic: string;
 
 ---
 
-##### `rpath`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestProfileCommonSettings.property.rpath"></a>
+##### `rpath`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestProfileCommonSettings.property.rpath"></a>
 
 ```typescript
 public readonly rpath: string;
@@ -833,17 +833,17 @@ public readonly rpath: string;
 
 ---
 
-### CargoManifestTableCommonSettings <a name="@GetSvelteUp/projen-rust-project.CargoManifestTableCommonSettings"></a>
+### CargoManifestTableCommonSettings <a name="@getsvelteup/projen-rust-project.CargoManifestTableCommonSettings"></a>
 
 #### Initializer <a name="[object Object].Initializer"></a>
 
 ```typescript
-import { CargoManifestTableCommonSettings } from '@GetSvelteUp/projen-rust-project'
+import { CargoManifestTableCommonSettings } from '@getsvelteup/projen-rust-project'
 
 const cargoManifestTableCommonSettings: CargoManifestTableCommonSettings = { ... }
 ```
 
-##### `name`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestTableCommonSettings.property.name"></a>
+##### `name`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestTableCommonSettings.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -853,7 +853,7 @@ public readonly name: string;
 
 ---
 
-##### `bench`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestTableCommonSettings.property.bench"></a>
+##### `bench`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestTableCommonSettings.property.bench"></a>
 
 ```typescript
 public readonly bench: boolean;
@@ -863,7 +863,7 @@ public readonly bench: boolean;
 
 ---
 
-##### `doc`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestTableCommonSettings.property.doc"></a>
+##### `doc`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestTableCommonSettings.property.doc"></a>
 
 ```typescript
 public readonly doc: boolean;
@@ -873,7 +873,7 @@ public readonly doc: boolean;
 
 ---
 
-##### `doctest`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestTableCommonSettings.property.doctest"></a>
+##### `doctest`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestTableCommonSettings.property.doctest"></a>
 
 ```typescript
 public readonly doctest: boolean;
@@ -883,7 +883,7 @@ public readonly doctest: boolean;
 
 ---
 
-##### `edition`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestTableCommonSettings.property.edition"></a>
+##### `edition`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestTableCommonSettings.property.edition"></a>
 
 ```typescript
 public readonly edition: string;
@@ -893,7 +893,7 @@ public readonly edition: string;
 
 ---
 
-##### `harness`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestTableCommonSettings.property.harness"></a>
+##### `harness`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestTableCommonSettings.property.harness"></a>
 
 ```typescript
 public readonly harness: boolean;
@@ -903,7 +903,7 @@ public readonly harness: boolean;
 
 ---
 
-##### `path`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestTableCommonSettings.property.path"></a>
+##### `path`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestTableCommonSettings.property.path"></a>
 
 ```typescript
 public readonly path: string;
@@ -913,7 +913,7 @@ public readonly path: string;
 
 ---
 
-##### `plugin`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestTableCommonSettings.property.plugin"></a>
+##### `plugin`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestTableCommonSettings.property.plugin"></a>
 
 ```typescript
 public readonly plugin: boolean;
@@ -923,7 +923,7 @@ public readonly plugin: boolean;
 
 ---
 
-##### `test`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestTableCommonSettings.property.test"></a>
+##### `test`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestTableCommonSettings.property.test"></a>
 
 ```typescript
 public readonly test: boolean;
@@ -933,17 +933,17 @@ public readonly test: boolean;
 
 ---
 
-### CargoManifestTest <a name="@GetSvelteUp/projen-rust-project.CargoManifestTest"></a>
+### CargoManifestTest <a name="@getsvelteup/projen-rust-project.CargoManifestTest"></a>
 
 #### Initializer <a name="[object Object].Initializer"></a>
 
 ```typescript
-import { CargoManifestTest } from '@GetSvelteUp/projen-rust-project'
+import { CargoManifestTest } from '@getsvelteup/projen-rust-project'
 
 const cargoManifestTest: CargoManifestTest = { ... }
 ```
 
-##### `name`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestTest.property.name"></a>
+##### `name`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestTest.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -953,7 +953,7 @@ public readonly name: string;
 
 ---
 
-##### `bench`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestTest.property.bench"></a>
+##### `bench`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestTest.property.bench"></a>
 
 ```typescript
 public readonly bench: boolean;
@@ -963,7 +963,7 @@ public readonly bench: boolean;
 
 ---
 
-##### `doc`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestTest.property.doc"></a>
+##### `doc`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestTest.property.doc"></a>
 
 ```typescript
 public readonly doc: boolean;
@@ -973,7 +973,7 @@ public readonly doc: boolean;
 
 ---
 
-##### `doctest`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestTest.property.doctest"></a>
+##### `doctest`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestTest.property.doctest"></a>
 
 ```typescript
 public readonly doctest: boolean;
@@ -983,7 +983,7 @@ public readonly doctest: boolean;
 
 ---
 
-##### `edition`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestTest.property.edition"></a>
+##### `edition`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestTest.property.edition"></a>
 
 ```typescript
 public readonly edition: string;
@@ -993,7 +993,7 @@ public readonly edition: string;
 
 ---
 
-##### `harness`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestTest.property.harness"></a>
+##### `harness`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestTest.property.harness"></a>
 
 ```typescript
 public readonly harness: boolean;
@@ -1003,7 +1003,7 @@ public readonly harness: boolean;
 
 ---
 
-##### `path`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestTest.property.path"></a>
+##### `path`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestTest.property.path"></a>
 
 ```typescript
 public readonly path: string;
@@ -1013,7 +1013,7 @@ public readonly path: string;
 
 ---
 
-##### `plugin`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestTest.property.plugin"></a>
+##### `plugin`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestTest.property.plugin"></a>
 
 ```typescript
 public readonly plugin: boolean;
@@ -1023,7 +1023,7 @@ public readonly plugin: boolean;
 
 ---
 
-##### `test`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.CargoManifestTest.property.test"></a>
+##### `test`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.CargoManifestTest.property.test"></a>
 
 ```typescript
 public readonly test: boolean;
@@ -1033,27 +1033,27 @@ public readonly test: boolean;
 
 ---
 
-### PackageInfo <a name="@GetSvelteUp/projen-rust-project.PackageInfo"></a>
+### PackageInfo <a name="@getsvelteup/projen-rust-project.PackageInfo"></a>
 
 #### Initializer <a name="[object Object].Initializer"></a>
 
 ```typescript
-import { PackageInfo } from '@GetSvelteUp/projen-rust-project'
+import { PackageInfo } from '@getsvelteup/projen-rust-project'
 
 const packageInfo: PackageInfo = { ... }
 ```
 
-### RustProjectBaseOptions <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions"></a>
+### RustProjectBaseOptions <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions"></a>
 
 #### Initializer <a name="[object Object].Initializer"></a>
 
 ```typescript
-import { RustProjectBaseOptions } from '@GetSvelteUp/projen-rust-project'
+import { RustProjectBaseOptions } from '@getsvelteup/projen-rust-project'
 
 const rustProjectBaseOptions: RustProjectBaseOptions = { ... }
 ```
 
-##### `name`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.name"></a>
+##### `name`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.name"></a>
 
 ```typescript
 public readonly name: string;
@@ -1066,7 +1066,7 @@ This is the name of your project.
 
 ---
 
-##### `logging`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.logging"></a>
+##### `logging`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.logging"></a>
 
 ```typescript
 public readonly logging: LoggerOptions;
@@ -1079,7 +1079,7 @@ Configure logging options such as verbosity.
 
 ---
 
-##### `outdir`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.outdir"></a>
+##### `outdir`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.outdir"></a>
 
 ```typescript
 public readonly outdir: string;
@@ -1098,7 +1098,7 @@ sub-projects.
 
 ---
 
-##### `parent`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.parent"></a>
+##### `parent`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.parent"></a>
 
 ```typescript
 public readonly parent: Project;
@@ -1110,7 +1110,7 @@ The parent project, if this project is part of a bigger project.
 
 ---
 
-##### `projenrcJson`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.projenrcJson"></a>
+##### `projenrcJson`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.projenrcJson"></a>
 
 ```typescript
 public readonly projenrcJson: boolean;
@@ -1123,7 +1123,7 @@ Generate (once) .projenrc.json (in JSON). Set to `false` in order to disable .pr
 
 ---
 
-##### `projenrcJsonOptions`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.projenrcJsonOptions"></a>
+##### `projenrcJsonOptions`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.projenrcJsonOptions"></a>
 
 ```typescript
 public readonly projenrcJsonOptions: ProjenrcOptions;
@@ -1136,7 +1136,7 @@ Options for .projenrc.json.
 
 ---
 
-##### `autoApproveOptions`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.autoApproveOptions"></a>
+##### `autoApproveOptions`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.autoApproveOptions"></a>
 
 ```typescript
 public readonly autoApproveOptions: AutoApproveOptions;
@@ -1149,7 +1149,7 @@ Enable and configure the 'auto approve' workflow.
 
 ---
 
-##### `autoMergeOptions`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.autoMergeOptions"></a>
+##### `autoMergeOptions`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.autoMergeOptions"></a>
 
 ```typescript
 public readonly autoMergeOptions: AutoMergeOptions;
@@ -1165,7 +1165,7 @@ Has no effect if
 
 ---
 
-##### `clobber`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.clobber"></a>
+##### `clobber`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.clobber"></a>
 
 ```typescript
 public readonly clobber: boolean;
@@ -1178,7 +1178,7 @@ Add a `clobber` task which resets the repo to origin.
 
 ---
 
-##### `devContainer`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.devContainer"></a>
+##### `devContainer`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.devContainer"></a>
 
 ```typescript
 public readonly devContainer: boolean;
@@ -1191,7 +1191,7 @@ Add a VSCode development environment (used for GitHub Codespaces).
 
 ---
 
-##### `github`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.github"></a>
+##### `github`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.github"></a>
 
 ```typescript
 public readonly github: boolean;
@@ -1206,7 +1206,7 @@ Enabled by default for root projects. Disabled for non-root projects.
 
 ---
 
-##### `githubOptions`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.githubOptions"></a>
+##### `githubOptions`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.githubOptions"></a>
 
 ```typescript
 public readonly githubOptions: GitHubOptions;
@@ -1219,7 +1219,7 @@ Options for GitHub integration.
 
 ---
 
-##### `gitpod`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.gitpod"></a>
+##### `gitpod`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.gitpod"></a>
 
 ```typescript
 public readonly gitpod: boolean;
@@ -1232,7 +1232,7 @@ Add a Gitpod development environment.
 
 ---
 
-##### ~~`mergify`~~<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.mergify"></a>
+##### ~~`mergify`~~<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.mergify"></a>
 
 - *Deprecated:* use `githubOptions.mergify` instead
 
@@ -1247,7 +1247,7 @@ Whether mergify should be enabled on this repository or not.
 
 ---
 
-##### ~~`projectType`~~<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.projectType"></a>
+##### ~~`projectType`~~<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.projectType"></a>
 
 - *Deprecated:* no longer supported at the base project level
 
@@ -1262,7 +1262,7 @@ Which type of project this is (library/app).
 
 ---
 
-##### `readme`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.readme"></a>
+##### `readme`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.readme"></a>
 
 ```typescript
 public readonly readme: SampleReadmeProps;
@@ -1275,7 +1275,7 @@ The README setup.
 
 ---
 
-##### `stale`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.stale"></a>
+##### `stale`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.stale"></a>
 
 ```typescript
 public readonly stale: boolean;
@@ -1290,7 +1290,7 @@ See `staleOptions` for options.
 
 ---
 
-##### `staleOptions`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.staleOptions"></a>
+##### `staleOptions`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.staleOptions"></a>
 
 ```typescript
 public readonly staleOptions: StaleOptions;
@@ -1305,7 +1305,7 @@ To disable set `stale` to `false`.
 
 ---
 
-##### `vscode`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.vscode"></a>
+##### `vscode`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.vscode"></a>
 
 ```typescript
 public readonly vscode: boolean;
@@ -1320,7 +1320,7 @@ Enabled by default for root projects. Disabled for non-root projects.
 
 ---
 
-##### `allowLibraryDependencies`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.allowLibraryDependencies"></a>
+##### `allowLibraryDependencies`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.allowLibraryDependencies"></a>
 
 ```typescript
 public readonly allowLibraryDependencies: boolean;
@@ -1336,7 +1336,7 @@ for specifying these.
 
 ---
 
-##### `authorEmail`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.authorEmail"></a>
+##### `authorEmail`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.authorEmail"></a>
 
 ```typescript
 public readonly authorEmail: string;
@@ -1348,7 +1348,7 @@ Author's e-mail.
 
 ---
 
-##### `authorName`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.authorName"></a>
+##### `authorName`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.authorName"></a>
 
 ```typescript
 public readonly authorName: string;
@@ -1360,7 +1360,7 @@ Author's name.
 
 ---
 
-##### `authorOrganization`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.authorOrganization"></a>
+##### `authorOrganization`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.authorOrganization"></a>
 
 ```typescript
 public readonly authorOrganization: boolean;
@@ -1372,7 +1372,7 @@ Author's Organization.
 
 ---
 
-##### `authorUrl`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.authorUrl"></a>
+##### `authorUrl`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.authorUrl"></a>
 
 ```typescript
 public readonly authorUrl: string;
@@ -1384,7 +1384,7 @@ Author's URL / Website.
 
 ---
 
-##### `autoDetectBin`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.autoDetectBin"></a>
+##### `autoDetectBin`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.autoDetectBin"></a>
 
 ```typescript
 public readonly autoDetectBin: boolean;
@@ -1397,7 +1397,7 @@ Automatically add all executables under the `bin` directory to your `package.jso
 
 ---
 
-##### `bin`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.bin"></a>
+##### `bin`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.bin"></a>
 
 ```typescript
 public readonly bin: {[ key: string ]: string};
@@ -1413,7 +1413,7 @@ executable file under `bin` will automatically be added to this section.
 
 ---
 
-##### `bundledDeps`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.bundledDeps"></a>
+##### `bundledDeps`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.bundledDeps"></a>
 
 ```typescript
 public readonly bundledDeps: string[];
@@ -1436,7 +1436,7 @@ this will be what you `package.json` will eventually include.
 
 ---
 
-##### `deps`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.deps"></a>
+##### `deps`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.deps"></a>
 
 ```typescript
 public readonly deps: string[];
@@ -1456,7 +1456,7 @@ this will be what you `package.json` will eventually include.
 
 ---
 
-##### `description`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.description"></a>
+##### `description`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.description"></a>
 
 ```typescript
 public readonly description: string;
@@ -1471,7 +1471,7 @@ See https://classic.yarnpkg.com/en/docs/package-json/#toc-description
 
 ---
 
-##### `devDeps`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.devDeps"></a>
+##### `devDeps`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.devDeps"></a>
 
 ```typescript
 public readonly devDeps: string[];
@@ -1495,7 +1495,7 @@ this will be what you `package.json` will eventually include.
 
 ---
 
-##### `entrypoint`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.entrypoint"></a>
+##### `entrypoint`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.entrypoint"></a>
 
 ```typescript
 public readonly entrypoint: string;
@@ -1510,7 +1510,7 @@ Set to an empty string to not include `main` in your package.json
 
 ---
 
-##### `homepage`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.homepage"></a>
+##### `homepage`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.homepage"></a>
 
 ```typescript
 public readonly homepage: string;
@@ -1522,7 +1522,7 @@ Package's Homepage / Website.
 
 ---
 
-##### `keywords`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.keywords"></a>
+##### `keywords`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.keywords"></a>
 
 ```typescript
 public readonly keywords: string[];
@@ -1534,7 +1534,7 @@ Keywords to include in `package.json`.
 
 ---
 
-##### `license`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.license"></a>
+##### `license`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.license"></a>
 
 ```typescript
 public readonly license: string;
@@ -1550,7 +1550,7 @@ Use the `licensed` option if you want to no license to be specified.
 
 ---
 
-##### `licensed`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.licensed"></a>
+##### `licensed`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.licensed"></a>
 
 ```typescript
 public readonly licensed: boolean;
@@ -1563,7 +1563,7 @@ Indicates if a license should be added.
 
 ---
 
-##### `maxNodeVersion`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.maxNodeVersion"></a>
+##### `maxNodeVersion`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.maxNodeVersion"></a>
 
 ```typescript
 public readonly maxNodeVersion: string;
@@ -1576,7 +1576,7 @@ Minimum node.js version to require via `engines` (inclusive).
 
 ---
 
-##### `minNodeVersion`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.minNodeVersion"></a>
+##### `minNodeVersion`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.minNodeVersion"></a>
 
 ```typescript
 public readonly minNodeVersion: string;
@@ -1589,7 +1589,7 @@ Minimum Node.js version to require via package.json `engines` (inclusive).
 
 ---
 
-##### `npmAccess`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.npmAccess"></a>
+##### `npmAccess`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.npmAccess"></a>
 
 ```typescript
 public readonly npmAccess: NpmAccess;
@@ -1604,7 +1604,7 @@ Access level of the npm package.
 
 ---
 
-##### `npmDistTag`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.npmDistTag"></a>
+##### `npmDistTag`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.npmDistTag"></a>
 
 ```typescript
 public readonly npmDistTag: string;
@@ -1628,7 +1628,7 @@ The `next` tag is used by some projects to identify the upcoming version.
 
 ---
 
-##### ~~`npmRegistry`~~<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.npmRegistry"></a>
+##### ~~`npmRegistry`~~<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.npmRegistry"></a>
 
 - *Deprecated:* use `npmRegistryUrl` instead
 
@@ -1644,7 +1644,7 @@ Cannot be set together with `npmRegistryUrl`.
 
 ---
 
-##### `npmRegistryUrl`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.npmRegistryUrl"></a>
+##### `npmRegistryUrl`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.npmRegistryUrl"></a>
 
 ```typescript
 public readonly npmRegistryUrl: string;
@@ -1659,7 +1659,7 @@ Must be a URL (e.g. start with "https://" or "http://")
 
 ---
 
-##### `npmTokenSecret`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.npmTokenSecret"></a>
+##### `npmTokenSecret`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.npmTokenSecret"></a>
 
 ```typescript
 public readonly npmTokenSecret: string;
@@ -1672,7 +1672,7 @@ GitHub secret which contains the NPM token to use when publishing packages.
 
 ---
 
-##### `packageManager`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.packageManager"></a>
+##### `packageManager`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.packageManager"></a>
 
 ```typescript
 public readonly packageManager: NodePackageManager;
@@ -1685,7 +1685,7 @@ The Node Package Manager used to execute scripts.
 
 ---
 
-##### `packageName`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.packageName"></a>
+##### `packageName`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.packageName"></a>
 
 ```typescript
 public readonly packageName: string;
@@ -1698,7 +1698,7 @@ The "name" in package.json.
 
 ---
 
-##### `peerDependencyOptions`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.peerDependencyOptions"></a>
+##### `peerDependencyOptions`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.peerDependencyOptions"></a>
 
 ```typescript
 public readonly peerDependencyOptions: PeerDependencyOptions;
@@ -1710,7 +1710,7 @@ Options for `peerDeps`.
 
 ---
 
-##### `peerDeps`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.peerDeps"></a>
+##### `peerDeps`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.peerDeps"></a>
 
 ```typescript
 public readonly peerDeps: string[];
@@ -1737,7 +1737,7 @@ test your module against the lowest peer version required.
 
 ---
 
-##### `projenCommand`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.projenCommand"></a>
+##### `projenCommand`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.projenCommand"></a>
 
 ```typescript
 public readonly projenCommand: string;
@@ -1752,7 +1752,7 @@ Can be used to customize in special environments.
 
 ---
 
-##### `repository`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.repository"></a>
+##### `repository`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.repository"></a>
 
 ```typescript
 public readonly repository: string;
@@ -1766,7 +1766,7 @@ See https://classic.yarnpkg.com/en/docs/package-json/#toc-repository
 
 ---
 
-##### `repositoryDirectory`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.repositoryDirectory"></a>
+##### `repositoryDirectory`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.repositoryDirectory"></a>
 
 ```typescript
 public readonly repositoryDirectory: string;
@@ -1778,7 +1778,7 @@ If the package.json for your package is not in the root directory (for example i
 
 ---
 
-##### `scripts`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.scripts"></a>
+##### `scripts`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.scripts"></a>
 
 ```typescript
 public readonly scripts: {[ key: string ]: string};
@@ -1794,7 +1794,7 @@ the standard script will be overwritten.
 
 ---
 
-##### `stability`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.stability"></a>
+##### `stability`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.stability"></a>
 
 ```typescript
 public readonly stability: string;
@@ -1806,7 +1806,7 @@ Package's Stability.
 
 ---
 
-##### `antitamper`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.antitamper"></a>
+##### `antitamper`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.antitamper"></a>
 
 ```typescript
 public readonly antitamper: boolean;
@@ -1819,7 +1819,7 @@ Checks that after build there are no modified files on git.
 
 ---
 
-##### `artifactsDirectory`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.artifactsDirectory"></a>
+##### `artifactsDirectory`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.artifactsDirectory"></a>
 
 ```typescript
 public readonly artifactsDirectory: string;
@@ -1832,7 +1832,7 @@ A directory which will contain artifacts to be published to npm.
 
 ---
 
-##### `jsiiReleaseVersion`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.jsiiReleaseVersion"></a>
+##### `jsiiReleaseVersion`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.jsiiReleaseVersion"></a>
 
 ```typescript
 public readonly jsiiReleaseVersion: string;
@@ -1845,7 +1845,7 @@ Version requirement of `jsii-release` which is used to publish modules to npm.
 
 ---
 
-##### `majorVersion`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.majorVersion"></a>
+##### `majorVersion`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.majorVersion"></a>
 
 ```typescript
 public readonly majorVersion: number;
@@ -1861,7 +1861,7 @@ If not specified, we bump the global latest version.
 
 ---
 
-##### `postBuildSteps`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.postBuildSteps"></a>
+##### `postBuildSteps`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.postBuildSteps"></a>
 
 ```typescript
 public readonly postBuildSteps: JobStep[];
@@ -1874,7 +1874,7 @@ Steps to execute after build as part of the release workflow.
 
 ---
 
-##### `prerelease`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.prerelease"></a>
+##### `prerelease`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.prerelease"></a>
 
 ```typescript
 public readonly prerelease: string;
@@ -1887,7 +1887,7 @@ Bump versions from the default branch as pre-releases (e.g. "beta", "alpha", "pr
 
 ---
 
-##### `releaseBranches`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.releaseBranches"></a>
+##### `releaseBranches`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.releaseBranches"></a>
 
 ```typescript
 public readonly releaseBranches: {[ key: string ]: BranchOptions};
@@ -1908,7 +1908,7 @@ be provided for the default branch.
 
 ---
 
-##### ~~`releaseEveryCommit`~~<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.releaseEveryCommit"></a>
+##### ~~`releaseEveryCommit`~~<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.releaseEveryCommit"></a>
 
 - *Deprecated:* Use `releaseTrigger: ReleaseTrigger.continuous()` instead
 
@@ -1923,7 +1923,7 @@ Automatically release new versions every commit to one of branches in `releaseBr
 
 ---
 
-##### `releaseFailureIssue`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.releaseFailureIssue"></a>
+##### `releaseFailureIssue`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.releaseFailureIssue"></a>
 
 ```typescript
 public readonly releaseFailureIssue: boolean;
@@ -1936,7 +1936,7 @@ Create a github issue on every failed publishing task.
 
 ---
 
-##### `releaseFailureIssueLabel`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.releaseFailureIssueLabel"></a>
+##### `releaseFailureIssueLabel`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.releaseFailureIssueLabel"></a>
 
 ```typescript
 public readonly releaseFailureIssueLabel: string;
@@ -1951,7 +1951,7 @@ Only applies if `releaseFailureIssue` is true.
 
 ---
 
-##### ~~`releaseSchedule`~~<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.releaseSchedule"></a>
+##### ~~`releaseSchedule`~~<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.releaseSchedule"></a>
 
 - *Deprecated:* Use `releaseTrigger: ReleaseTrigger.scheduled()` instead
 
@@ -1966,7 +1966,7 @@ CRON schedule to trigger new releases.
 
 ---
 
-##### `releaseTagPrefix`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.releaseTagPrefix"></a>
+##### `releaseTagPrefix`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.releaseTagPrefix"></a>
 
 ```typescript
 public readonly releaseTagPrefix: string;
@@ -1984,7 +1984,7 @@ with the new prefix.
 
 ---
 
-##### `releaseTrigger`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.releaseTrigger"></a>
+##### `releaseTrigger`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.releaseTrigger"></a>
 
 ```typescript
 public readonly releaseTrigger: ReleaseTrigger;
@@ -1997,7 +1997,7 @@ The release trigger to use.
 
 ---
 
-##### `releaseWorkflowName`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.releaseWorkflowName"></a>
+##### `releaseWorkflowName`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.releaseWorkflowName"></a>
 
 ```typescript
 public readonly releaseWorkflowName: string;
@@ -2010,7 +2010,7 @@ The name of the default release workflow.
 
 ---
 
-##### `releaseWorkflowSetupSteps`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.releaseWorkflowSetupSteps"></a>
+##### `releaseWorkflowSetupSteps`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.releaseWorkflowSetupSteps"></a>
 
 ```typescript
 public readonly releaseWorkflowSetupSteps: JobStep[];
@@ -2022,7 +2022,7 @@ A set of workflow steps to execute in order to setup the workflow container.
 
 ---
 
-##### `workflowContainerImage`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.workflowContainerImage"></a>
+##### `workflowContainerImage`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.workflowContainerImage"></a>
 
 ```typescript
 public readonly workflowContainerImage: string;
@@ -2035,7 +2035,7 @@ Container image to use for GitHub workflows.
 
 ---
 
-##### `defaultReleaseBranch`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.defaultReleaseBranch"></a>
+##### `defaultReleaseBranch`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.defaultReleaseBranch"></a>
 
 ```typescript
 public readonly defaultReleaseBranch: string;
@@ -2048,7 +2048,7 @@ The name of the main release branch.
 
 ---
 
-##### `autoApproveProjenUpgrades`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.autoApproveProjenUpgrades"></a>
+##### `autoApproveProjenUpgrades`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.autoApproveProjenUpgrades"></a>
 
 ```typescript
 public readonly autoApproveProjenUpgrades: boolean;
@@ -2063,7 +2063,7 @@ Throw if set to true but `autoApproveOptions` are not defined.
 
 ---
 
-##### `autoApproveUpgrades`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.autoApproveUpgrades"></a>
+##### `autoApproveUpgrades`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.autoApproveUpgrades"></a>
 
 ```typescript
 public readonly autoApproveUpgrades: boolean;
@@ -2078,7 +2078,7 @@ Throw if set to true but `autoApproveOptions` are not defined.
 
 ---
 
-##### `buildWorkflow`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.buildWorkflow"></a>
+##### `buildWorkflow`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.buildWorkflow"></a>
 
 ```typescript
 public readonly buildWorkflow: boolean;
@@ -2091,7 +2091,7 @@ Define a GitHub workflow for building PRs.
 
 ---
 
-##### `codeCov`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.codeCov"></a>
+##### `codeCov`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.codeCov"></a>
 
 ```typescript
 public readonly codeCov: boolean;
@@ -2104,7 +2104,7 @@ Define a GitHub workflow step for sending code coverage metrics to https://codec
 
 ---
 
-##### `codeCovTokenSecret`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.codeCovTokenSecret"></a>
+##### `codeCovTokenSecret`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.codeCovTokenSecret"></a>
 
 ```typescript
 public readonly codeCovTokenSecret: string;
@@ -2117,7 +2117,7 @@ Define the secret name for a specified https://codecov.io/ token A secret is req
 
 ---
 
-##### `copyrightOwner`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.copyrightOwner"></a>
+##### `copyrightOwner`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.copyrightOwner"></a>
 
 ```typescript
 public readonly copyrightOwner: string;
@@ -2130,7 +2130,7 @@ License copyright owner.
 
 ---
 
-##### `copyrightPeriod`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.copyrightPeriod"></a>
+##### `copyrightPeriod`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.copyrightPeriod"></a>
 
 ```typescript
 public readonly copyrightPeriod: string;
@@ -2143,7 +2143,7 @@ The copyright years to put in the LICENSE file.
 
 ---
 
-##### `dependabot`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.dependabot"></a>
+##### `dependabot`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.dependabot"></a>
 
 ```typescript
 public readonly dependabot: boolean;
@@ -2158,7 +2158,7 @@ Cannot be used in conjunction with `depsUpgrade`.
 
 ---
 
-##### `dependabotOptions`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.dependabotOptions"></a>
+##### `dependabotOptions`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.dependabotOptions"></a>
 
 ```typescript
 public readonly dependabotOptions: DependabotOptions;
@@ -2171,7 +2171,7 @@ Options for dependabot.
 
 ---
 
-##### `depsUpgrade`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.depsUpgrade"></a>
+##### `depsUpgrade`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.depsUpgrade"></a>
 
 ```typescript
 public readonly depsUpgrade: boolean;
@@ -2186,7 +2186,7 @@ Cannot be used in conjunction with `dependabot`.
 
 ---
 
-##### `depsUpgradeOptions`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.depsUpgradeOptions"></a>
+##### `depsUpgradeOptions`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.depsUpgradeOptions"></a>
 
 ```typescript
 public readonly depsUpgradeOptions: UpgradeDependenciesOptions;
@@ -2199,7 +2199,7 @@ Options for depsUpgrade.
 
 ---
 
-##### `gitignore`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.gitignore"></a>
+##### `gitignore`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.gitignore"></a>
 
 ```typescript
 public readonly gitignore: string[];
@@ -2211,7 +2211,7 @@ Additional entries to .gitignore.
 
 ---
 
-##### `jest`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.jest"></a>
+##### `jest`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.jest"></a>
 
 ```typescript
 public readonly jest: boolean;
@@ -2224,7 +2224,7 @@ Setup jest unit tests.
 
 ---
 
-##### `jestOptions`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.jestOptions"></a>
+##### `jestOptions`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.jestOptions"></a>
 
 ```typescript
 public readonly jestOptions: JestOptions;
@@ -2237,7 +2237,7 @@ Jest options.
 
 ---
 
-##### `mergifyOptions`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.mergifyOptions"></a>
+##### `mergifyOptions`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.mergifyOptions"></a>
 
 ```typescript
 public readonly mergifyOptions: MergifyOptions;
@@ -2250,7 +2250,7 @@ Options for mergify.
 
 ---
 
-##### `mutableBuild`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.mutableBuild"></a>
+##### `mutableBuild`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.mutableBuild"></a>
 
 ```typescript
 public readonly mutableBuild: boolean;
@@ -2269,7 +2269,7 @@ Implies that PR builds do not have anti-tamper checks.
 
 ---
 
-##### ~~`npmignore`~~<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.npmignore"></a>
+##### ~~`npmignore`~~<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.npmignore"></a>
 
 - *Deprecated:* - use `project.addPackageIgnore`
 
@@ -2283,7 +2283,7 @@ Additional entries to .npmignore.
 
 ---
 
-##### `npmignoreEnabled`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.npmignoreEnabled"></a>
+##### `npmignoreEnabled`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.npmignoreEnabled"></a>
 
 ```typescript
 public readonly npmignoreEnabled: boolean;
@@ -2296,7 +2296,7 @@ Defines an .npmignore file. Normally this is only needed for libraries that are 
 
 ---
 
-##### `projenDevDependency`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.projenDevDependency"></a>
+##### `projenDevDependency`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.projenDevDependency"></a>
 
 ```typescript
 public readonly projenDevDependency: boolean;
@@ -2309,7 +2309,7 @@ Indicates of "projen" should be installed as a devDependency.
 
 ---
 
-##### `projenDuringBuild`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.projenDuringBuild"></a>
+##### `projenDuringBuild`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.projenDuringBuild"></a>
 
 ```typescript
 public readonly projenDuringBuild: boolean;
@@ -2327,7 +2327,7 @@ synthesized project files will be persisted.
 
 ---
 
-##### `projenrcJs`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.projenrcJs"></a>
+##### `projenrcJs`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.projenrcJs"></a>
 
 ```typescript
 public readonly projenrcJs: boolean;
@@ -2340,7 +2340,7 @@ Generate (once) .projenrc.js (in JavaScript). Set to `false` in order to disable
 
 ---
 
-##### `projenrcJsOptions`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.projenrcJsOptions"></a>
+##### `projenrcJsOptions`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.projenrcJsOptions"></a>
 
 ```typescript
 public readonly projenrcJsOptions: ProjenrcOptions;
@@ -2353,7 +2353,7 @@ Options for .projenrc.js.
 
 ---
 
-##### ~~`projenUpgradeAutoMerge`~~<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.projenUpgradeAutoMerge"></a>
+##### ~~`projenUpgradeAutoMerge`~~<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.projenUpgradeAutoMerge"></a>
 
 - *Deprecated:* use `autoApproveProjenUpgrades`.
 
@@ -2370,7 +2370,7 @@ Throw if set to true but `autoApproveOptions` are not defined.
 
 ---
 
-##### `projenUpgradeSchedule`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.projenUpgradeSchedule"></a>
+##### `projenUpgradeSchedule`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.projenUpgradeSchedule"></a>
 
 ```typescript
 public readonly projenUpgradeSchedule: string[];
@@ -2383,7 +2383,7 @@ Customize the projenUpgrade schedule in cron expression.
 
 ---
 
-##### `projenUpgradeSecret`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.projenUpgradeSecret"></a>
+##### `projenUpgradeSecret`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.projenUpgradeSecret"></a>
 
 ```typescript
 public readonly projenUpgradeSecret: string;
@@ -2404,7 +2404,7 @@ To create a personal access token see https://github.com/settings/tokens
 
 ---
 
-##### `projenVersion`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.projenVersion"></a>
+##### `projenVersion`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.projenVersion"></a>
 
 ```typescript
 public readonly projenVersion: string;
@@ -2417,7 +2417,7 @@ Version of projen to install.
 
 ---
 
-##### `pullRequestTemplate`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.pullRequestTemplate"></a>
+##### `pullRequestTemplate`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.pullRequestTemplate"></a>
 
 ```typescript
 public readonly pullRequestTemplate: boolean;
@@ -2430,7 +2430,7 @@ Include a GitHub pull request template.
 
 ---
 
-##### `pullRequestTemplateContents`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.pullRequestTemplateContents"></a>
+##### `pullRequestTemplateContents`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.pullRequestTemplateContents"></a>
 
 ```typescript
 public readonly pullRequestTemplateContents: string[];
@@ -2443,7 +2443,7 @@ The contents of the pull request template.
 
 ---
 
-##### `release`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.release"></a>
+##### `release`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.release"></a>
 
 ```typescript
 public readonly release: boolean;
@@ -2456,7 +2456,7 @@ Add release management to this project.
 
 ---
 
-##### `releaseToNpm`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.releaseToNpm"></a>
+##### `releaseToNpm`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.releaseToNpm"></a>
 
 ```typescript
 public readonly releaseToNpm: boolean;
@@ -2469,7 +2469,7 @@ Automatically release to npm when new versions are introduced.
 
 ---
 
-##### ~~`releaseWorkflow`~~<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.releaseWorkflow"></a>
+##### ~~`releaseWorkflow`~~<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.releaseWorkflow"></a>
 
 - *Deprecated:* see `release`.
 
@@ -2484,7 +2484,7 @@ DEPRECATED: renamed to `release`.
 
 ---
 
-##### `workflowBootstrapSteps`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.workflowBootstrapSteps"></a>
+##### `workflowBootstrapSteps`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.workflowBootstrapSteps"></a>
 
 ```typescript
 public readonly workflowBootstrapSteps: any[];
@@ -2497,7 +2497,7 @@ Workflow steps to use in order to bootstrap this repo.
 
 ---
 
-##### `workflowGitIdentity`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.workflowGitIdentity"></a>
+##### `workflowGitIdentity`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.workflowGitIdentity"></a>
 
 ```typescript
 public readonly workflowGitIdentity: GitIdentity;
@@ -2510,7 +2510,7 @@ The git identity to use in workflows.
 
 ---
 
-##### `workflowNodeVersion`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.workflowNodeVersion"></a>
+##### `workflowNodeVersion`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.workflowNodeVersion"></a>
 
 ```typescript
 public readonly workflowNodeVersion: string;
@@ -2523,7 +2523,7 @@ The node version to use in GitHub workflows.
 
 ---
 
-##### `compileBeforeTest`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.compileBeforeTest"></a>
+##### `compileBeforeTest`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.compileBeforeTest"></a>
 
 ```typescript
 public readonly compileBeforeTest: boolean;
@@ -2536,7 +2536,7 @@ Compile the code before running tests.
 
 ---
 
-##### `disableTsconfig`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.disableTsconfig"></a>
+##### `disableTsconfig`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.disableTsconfig"></a>
 
 ```typescript
 public readonly disableTsconfig: boolean;
@@ -2549,7 +2549,7 @@ Do not generate a `tsconfig.json` file (used by jsii projects since tsconfig.jso
 
 ---
 
-##### `docgen`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.docgen"></a>
+##### `docgen`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.docgen"></a>
 
 ```typescript
 public readonly docgen: boolean;
@@ -2562,7 +2562,7 @@ Docgen by Typedoc.
 
 ---
 
-##### `docsDirectory`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.docsDirectory"></a>
+##### `docsDirectory`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.docsDirectory"></a>
 
 ```typescript
 public readonly docsDirectory: string;
@@ -2575,7 +2575,7 @@ Docs directory.
 
 ---
 
-##### `entrypointTypes`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.entrypointTypes"></a>
+##### `entrypointTypes`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.entrypointTypes"></a>
 
 ```typescript
 public readonly entrypointTypes: string;
@@ -2588,7 +2588,7 @@ The .d.ts file that includes the type declarations for this module.
 
 ---
 
-##### `eslint`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.eslint"></a>
+##### `eslint`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.eslint"></a>
 
 ```typescript
 public readonly eslint: boolean;
@@ -2601,7 +2601,7 @@ Setup eslint.
 
 ---
 
-##### `eslintOptions`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.eslintOptions"></a>
+##### `eslintOptions`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.eslintOptions"></a>
 
 ```typescript
 public readonly eslintOptions: EslintOptions;
@@ -2614,7 +2614,7 @@ Eslint options.
 
 ---
 
-##### `libdir`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.libdir"></a>
+##### `libdir`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.libdir"></a>
 
 ```typescript
 public readonly libdir: string;
@@ -2627,7 +2627,7 @@ Typescript  artifacts output directory.
 
 ---
 
-##### `package`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.package"></a>
+##### `package`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.package"></a>
 
 ```typescript
 public readonly package: boolean;
@@ -2640,7 +2640,7 @@ Defines a `yarn package` command that will produce a tarball and place it under 
 
 ---
 
-##### `projenrcTs`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.projenrcTs"></a>
+##### `projenrcTs`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.projenrcTs"></a>
 
 ```typescript
 public readonly projenrcTs: boolean;
@@ -2653,7 +2653,7 @@ Use TypeScript for your projenrc file (`.projenrc.ts`).
 
 ---
 
-##### `projenrcTsOptions`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.projenrcTsOptions"></a>
+##### `projenrcTsOptions`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.projenrcTsOptions"></a>
 
 ```typescript
 public readonly projenrcTsOptions: ProjenrcOptions;
@@ -2665,7 +2665,7 @@ Options for .projenrc.ts.
 
 ---
 
-##### `sampleCode`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.sampleCode"></a>
+##### `sampleCode`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.sampleCode"></a>
 
 ```typescript
 public readonly sampleCode: boolean;
@@ -2678,7 +2678,7 @@ Generate one-time sample in `src/` and `test/` if there are no files there.
 
 ---
 
-##### `srcdir`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.srcdir"></a>
+##### `srcdir`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.srcdir"></a>
 
 ```typescript
 public readonly srcdir: string;
@@ -2691,7 +2691,7 @@ Typescript sources directory.
 
 ---
 
-##### `testdir`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.testdir"></a>
+##### `testdir`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.testdir"></a>
 
 ```typescript
 public readonly testdir: string;
@@ -2709,7 +2709,7 @@ compile the code in-memory.
 
 ---
 
-##### `tsconfig`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.tsconfig"></a>
+##### `tsconfig`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.tsconfig"></a>
 
 ```typescript
 public readonly tsconfig: TypescriptConfigOptions;
@@ -2722,7 +2722,7 @@ Custom TSConfig.
 
 ---
 
-##### `tsconfigDev`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.tsconfigDev"></a>
+##### `tsconfigDev`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.tsconfigDev"></a>
 
 ```typescript
 public readonly tsconfigDev: TypescriptConfigOptions;
@@ -2735,7 +2735,7 @@ Custom tsconfig options for the development tsconfig.json file (used for testing
 
 ---
 
-##### `tsconfigDevFile`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.tsconfigDevFile"></a>
+##### `tsconfigDevFile`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.tsconfigDevFile"></a>
 
 ```typescript
 public readonly tsconfigDevFile: string;
@@ -2748,7 +2748,7 @@ The name of the development tsconfig.json file.
 
 ---
 
-##### `typescriptVersion`<sup>Optional</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.typescriptVersion"></a>
+##### `typescriptVersion`<sup>Optional</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.typescriptVersion"></a>
 
 ```typescript
 public readonly typescriptVersion: string;
@@ -2764,17 +2764,17 @@ same minor, so we recommend using a `~` dependency (e.g. `~1.2.3`).
 
 ---
 
-##### `manifest`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.manifest"></a>
+##### `manifest`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.manifest"></a>
 
 ```typescript
 public readonly manifest: CargoManifest;
 ```
 
-- *Type:* [`@GetSvelteUp/projen-rust-project.CargoManifest`](#@GetSvelteUp/projen-rust-project.CargoManifest)
+- *Type:* [`@getsvelteup/projen-rust-project.CargoManifest`](#@getsvelteup/projen-rust-project.CargoManifest)
 
 ---
 
-##### `target`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBaseOptions.property.target"></a>
+##### `target`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBaseOptions.property.target"></a>
 
 ```typescript
 public readonly target: string;
@@ -2786,109 +2786,109 @@ public readonly target: string;
 
 ## Classes <a name="Classes"></a>
 
-### RustProjectBase <a name="@GetSvelteUp/projen-rust-project.RustProjectBase"></a>
+### RustProjectBase <a name="@getsvelteup/projen-rust-project.RustProjectBase"></a>
 
-#### Initializers <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.Initializer"></a>
+#### Initializers <a name="@getsvelteup/projen-rust-project.RustProjectBase.Initializer"></a>
 
 ```typescript
-import { RustProjectBase } from '@GetSvelteUp/projen-rust-project'
+import { RustProjectBase } from '@getsvelteup/projen-rust-project'
 
 new RustProjectBase(options: RustProjectBaseOptions)
 ```
 
-##### `options`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.parameter.options"></a>
+##### `options`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBase.parameter.options"></a>
 
-- *Type:* [`@GetSvelteUp/projen-rust-project.RustProjectBaseOptions`](#@GetSvelteUp/projen-rust-project.RustProjectBaseOptions)
+- *Type:* [`@getsvelteup/projen-rust-project.RustProjectBaseOptions`](#@getsvelteup/projen-rust-project.RustProjectBaseOptions)
 
 ---
 
 #### Methods <a name="Methods"></a>
 
-##### `addBench` <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.addBench"></a>
+##### `addBench` <a name="@getsvelteup/projen-rust-project.RustProjectBase.addBench"></a>
 
 ```typescript
 public addBench(benchName: string, opts: CargoManifestBench)
 ```
 
-###### `benchName`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.parameter.benchName"></a>
+###### `benchName`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBase.parameter.benchName"></a>
 
 - *Type:* `string`
 
 ---
 
-###### `opts`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.parameter.opts"></a>
+###### `opts`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBase.parameter.opts"></a>
 
-- *Type:* [`@GetSvelteUp/projen-rust-project.CargoManifestBench`](#@GetSvelteUp/projen-rust-project.CargoManifestBench)
+- *Type:* [`@getsvelteup/projen-rust-project.CargoManifestBench`](#@getsvelteup/projen-rust-project.CargoManifestBench)
 
 ---
 
-##### `addBinary` <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.addBinary"></a>
+##### `addBinary` <a name="@getsvelteup/projen-rust-project.RustProjectBase.addBinary"></a>
 
 ```typescript
 public addBinary(binName: string, opts: CargoManifestBin)
 ```
 
-###### `binName`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.parameter.binName"></a>
+###### `binName`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBase.parameter.binName"></a>
 
 - *Type:* `string`
 
 ---
 
-###### `opts`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.parameter.opts"></a>
+###### `opts`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBase.parameter.opts"></a>
 
-- *Type:* [`@GetSvelteUp/projen-rust-project.CargoManifestBin`](#@GetSvelteUp/projen-rust-project.CargoManifestBin)
+- *Type:* [`@getsvelteup/projen-rust-project.CargoManifestBin`](#@getsvelteup/projen-rust-project.CargoManifestBin)
 
 ---
 
-##### `addExample` <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.addExample"></a>
+##### `addExample` <a name="@getsvelteup/projen-rust-project.RustProjectBase.addExample"></a>
 
 ```typescript
 public addExample(exampleName: string, opts: CargoManifestExample)
 ```
 
-###### `exampleName`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.parameter.exampleName"></a>
+###### `exampleName`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBase.parameter.exampleName"></a>
 
 - *Type:* `string`
 
 ---
 
-###### `opts`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.parameter.opts"></a>
+###### `opts`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBase.parameter.opts"></a>
 
-- *Type:* [`@GetSvelteUp/projen-rust-project.CargoManifestExample`](#@GetSvelteUp/projen-rust-project.CargoManifestExample)
+- *Type:* [`@getsvelteup/projen-rust-project.CargoManifestExample`](#@getsvelteup/projen-rust-project.CargoManifestExample)
 
 ---
 
-##### `addTest` <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.addTest"></a>
+##### `addTest` <a name="@getsvelteup/projen-rust-project.RustProjectBase.addTest"></a>
 
 ```typescript
 public addTest(testName: string, opts: CargoManifestTest)
 ```
 
-###### `testName`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.parameter.testName"></a>
+###### `testName`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBase.parameter.testName"></a>
 
 - *Type:* `string`
 
 ---
 
-###### `opts`<sup>Required</sup> <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.parameter.opts"></a>
+###### `opts`<sup>Required</sup> <a name="@getsvelteup/projen-rust-project.RustProjectBase.parameter.opts"></a>
 
-- *Type:* [`@GetSvelteUp/projen-rust-project.CargoManifestTest`](#@GetSvelteUp/projen-rust-project.CargoManifestTest)
+- *Type:* [`@getsvelteup/projen-rust-project.CargoManifestTest`](#@getsvelteup/projen-rust-project.CargoManifestTest)
 
 ---
 
-##### `postSynthesize` <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.postSynthesize"></a>
+##### `postSynthesize` <a name="@getsvelteup/projen-rust-project.RustProjectBase.postSynthesize"></a>
 
 ```typescript
 public postSynthesize()
 ```
 
-##### `preSynthesize` <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.preSynthesize"></a>
+##### `preSynthesize` <a name="@getsvelteup/projen-rust-project.RustProjectBase.preSynthesize"></a>
 
 ```typescript
 public preSynthesize()
 ```
 
-##### `synth` <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.synth"></a>
+##### `synth` <a name="@getsvelteup/projen-rust-project.RustProjectBase.synth"></a>
 
 ```typescript
 public synth()
@@ -2898,13 +2898,13 @@ public synth()
 
 #### Constants <a name="Constants"></a>
 
-##### `devDeps` <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.property.devDeps"></a>
+##### `devDeps` <a name="@getsvelteup/projen-rust-project.RustProjectBase.property.devDeps"></a>
 
 - *Type:* `string`[]
 
 ---
 
-##### `scriptsToReplace` <a name="@GetSvelteUp/projen-rust-project.RustProjectBase.property.scriptsToReplace"></a>
+##### `scriptsToReplace` <a name="@getsvelteup/projen-rust-project.RustProjectBase.property.scriptsToReplace"></a>
 
 - *Type:* `string`[]
 
@@ -2915,37 +2915,37 @@ public synth()
 
 ### CargoManifestCrateType <a name="CargoManifestCrateType"></a>
 
-#### `BIN` <a name="@GetSvelteUp/projen-rust-project.CargoManifestCrateType.BIN"></a>
+#### `BIN` <a name="@getsvelteup/projen-rust-project.CargoManifestCrateType.BIN"></a>
 
 ---
 
 
-#### `LIB` <a name="@GetSvelteUp/projen-rust-project.CargoManifestCrateType.LIB"></a>
+#### `LIB` <a name="@getsvelteup/projen-rust-project.CargoManifestCrateType.LIB"></a>
 
 ---
 
 
-#### `R_LIB` <a name="@GetSvelteUp/projen-rust-project.CargoManifestCrateType.R_LIB"></a>
+#### `R_LIB` <a name="@getsvelteup/projen-rust-project.CargoManifestCrateType.R_LIB"></a>
 
 ---
 
 
-#### `DY_LIB` <a name="@GetSvelteUp/projen-rust-project.CargoManifestCrateType.DY_LIB"></a>
+#### `DY_LIB` <a name="@getsvelteup/projen-rust-project.CargoManifestCrateType.DY_LIB"></a>
 
 ---
 
 
-#### `CDY_LIB` <a name="@GetSvelteUp/projen-rust-project.CargoManifestCrateType.CDY_LIB"></a>
+#### `CDY_LIB` <a name="@getsvelteup/projen-rust-project.CargoManifestCrateType.CDY_LIB"></a>
 
 ---
 
 
-#### `STATIC_LIB` <a name="@GetSvelteUp/projen-rust-project.CargoManifestCrateType.STATIC_LIB"></a>
+#### `STATIC_LIB` <a name="@getsvelteup/projen-rust-project.CargoManifestCrateType.STATIC_LIB"></a>
 
 ---
 
 
-#### `PROC_MACRO` <a name="@GetSvelteUp/projen-rust-project.CargoManifestCrateType.PROC_MACRO"></a>
+#### `PROC_MACRO` <a name="@getsvelteup/projen-rust-project.CargoManifestCrateType.PROC_MACRO"></a>
 
 ---
 
