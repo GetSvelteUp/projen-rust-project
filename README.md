@@ -10,7 +10,7 @@
     <hr />
 </div>
 
-An **very experimental** plugin (project generator) for [projen](https://github.com/projen/projen) that aims to make spinning up and maintaining cargo-based rustlang projects easy and predicatable.
+A **very experimental** plugin (project generator) for [projen](https://github.com/projen/projen) that aims to make spinning up and maintaining cargo-based rustlang projects easy and predicatable.
 
 ## Getting Started
 
