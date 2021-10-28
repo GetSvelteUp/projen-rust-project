@@ -19,6 +19,7 @@
     "package": "npx projen package",
     "eslint": "npx projen eslint",
     "compat": "npx projen compat",
+    "publish:npm": "npx projen publish:npm",
     "release": "npx projen release",
     "upgrade": "npx projen upgrade",
     "upgrade-projen": "npx projen upgrade-projen",
