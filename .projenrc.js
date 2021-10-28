@@ -2,8 +2,8 @@ const { TypeScriptProject, NpmAccess, JsiiProject } = require('projen');
 
 const project = new JsiiProject({
   defaultReleaseBranch: 'main',
-  name: '@getsvelteup/projen-rust-project',
-  authorName: 'GetSvelteUp',
+  name: '@svelte-up/projen-rust-project',
+  authorName: 'Michael Edelman',
   authorEmail: 'michael@svelteup.io',
   authorUrl: 'https://twitter.com/edelman215',
   authorOrganization: true,
@@ -22,7 +22,7 @@ const project = new JsiiProject({
   },
 
   docgen: false,
-  codeCov: false,
+  codeCov: true,
   dependabot: false,
   github: false,
 

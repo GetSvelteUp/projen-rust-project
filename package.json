@@ -1,5 +1,5 @@
 {
-  "name": "@getsvelteup/projen-rust-project",
+  "name": "@svelte-up/projen-rust-project",
   "repository": {
     "type": "git",
     "url": "https://github.com/GetSvelteUp/projen-rust-project.git"
@@ -25,7 +25,7 @@
     "projen": "npx projen"
   },
   "author": {
-    "name": "GetSvelteUp",
+    "name": "Michael Edelman",
     "email": "michael@svelteup.io",
     "url": "https://twitter.com/edelman215",
     "organization": true
@@ -47,17 +47,17 @@
     "jsii-pacmak": "^1.41.0",
     "json-schema": "^0.3.0",
     "npm-check-updates": "^11",
-    "projen": "^0.31.14",
+    "projen": "0.31.14",
     "standard-version": "^9",
     "ts-jest": "^27.0.7",
     "typescript": "^4.4.4"
   },
   "peerDependencies": {
-    "projen": "^0.31.14"
+    "projen": "0.31.14"
   },
   "dependencies": {
     "fs-extra": "^10.0.0",
-    "projen": "^0.31.14"
+    "projen": "0.31.14"
   },
   "bundledDependencies": [
     "fs-extra"
