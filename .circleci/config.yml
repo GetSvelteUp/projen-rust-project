@@ -26,4 +26,4 @@ workflows:
           pkg-manager: yarn
           post-steps:
             - codecov/upload
-            - coveralls/upload
+            # - coveralls/upload
