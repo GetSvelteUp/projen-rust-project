@@ -146,19 +146,15 @@ export class RustProjectBase extends TypeScriptProject {
   private generateSampleFiles(manifest: CargoManifest) {
     for (const item of manifest.bin ?? []) {
       this._addComponent(
-        new SampleFile(
-          this,
-          join(process.cwd(), 'src/bin', `${item.name}.rs`),
-          {
-            sourcePath: resolve(__dirname, '../assets/generic-main.rs'),
-          },
-        ),
+        new SampleFile(this, join('./src/bin', `${item.name}.rs`), {
+          sourcePath: resolve(__dirname, '../assets/generic-main.rs'),
+        }),
       );
     }
 
     for (const item of manifest.test ?? []) {
       this._addComponent(
-        new SampleFile(this, join(process.cwd(), 'tests', `${item.name}.rs`), {
+        new SampleFile(this, join('./tests', `${item.name}.rs`), {
           sourcePath: resolve(__dirname, '../assets/generic-test.rs'),
         }),
       );
@@ -166,25 +162,17 @@ export class RustProjectBase extends TypeScriptProject {
 
     for (const item of manifest.example ?? []) {
       this._addComponent(
-        new SampleFile(
-          this,
-          join(process.cwd(), 'examples', `${item.name}.rs`),
-          {
-            sourcePath: resolve(__dirname, '../assets/generic-example.rs'),
-          },
-        ),
+        new SampleFile(this, join('./examples', `${item.name}.rs`), {
+          sourcePath: resolve(__dirname, '../assets/generic-example.rs'),
+        }),
       );
     }
 
     for (const item of manifest.bench ?? []) {
       this._addComponent(
-        new SampleFile(
-          this,
-          join(process.cwd(), 'benches', `${item.name}.rs`),
-          {
-            sourcePath: resolve(__dirname, '../assets/generic-bench.rs'),
-          },
-        ),
+        new SampleFile(this, join('./benches', `${item.name}.rs`), {
+          sourcePath: resolve(__dirname, '../assets/generic-bench.rs'),
+        }),
       );
     }
   }
