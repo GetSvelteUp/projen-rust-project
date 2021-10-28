@@ -19,9 +19,8 @@
     "package": "npx projen package",
     "eslint": "npx projen eslint",
     "compat": "npx projen compat",
-    "publish:npm": "npx projen publish:npm",
-    "docgen": "npx projen docgen",
     "release": "npx projen release",
+    "upgrade": "npx projen upgrade",
     "upgrade-projen": "npx projen upgrade-projen",
     "projen": "npx projen"
   },
@@ -45,7 +44,6 @@
     "jest-junit": "^12",
     "jsii": "^1.41.0",
     "jsii-diff": "^1.41.0",
-    "jsii-docgen": "^3.8.10",
     "jsii-pacmak": "^1.41.0",
     "json-schema": "^0.3.0",
     "npm-check-updates": "^11",

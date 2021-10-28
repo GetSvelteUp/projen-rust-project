@@ -14,16 +14,17 @@ const project = new JsiiProject({
   peerDeps: ['projen'],
   bundledDeps: ['fs-extra'],
 
-  releaseToNpm: true,
+  releaseToNpm: false,
   npmAccess: NpmAccess.PUBLIC,
 
   githubOptions: {
     authorName: 'GetSvelteUp',
   },
 
-  docgen: true,
-  codeCov: true,
-  dependabot: true,
+  docgen: false,
+  codeCov: false,
+  dependabot: false,
+  github: false,
 
   npmDistTag: 'latest',
   npmRegistryUrl: 'https://npm.pkg.github.com',
