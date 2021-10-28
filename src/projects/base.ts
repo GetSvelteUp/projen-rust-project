@@ -147,7 +147,7 @@ export class RustProjectBase extends TypeScriptProject {
     for (const item of manifest.bin ?? []) {
       this._addComponent(
         new SampleFile(this, `${this.binDir}/${item.name}.rs`, {
-          sourcePath: resolve(this.projectRoot, 'src/assets/generic-main.rs'),
+          sourcePath: resolve(__dirname, '../assets/generic-main.rs'),
         }),
       );
     }
@@ -155,7 +155,7 @@ export class RustProjectBase extends TypeScriptProject {
     for (const item of manifest.test ?? []) {
       this._addComponent(
         new SampleFile(this, `${this.testsDir}/${item.name}.rs`, {
-          sourcePath: resolve(this.projectRoot, 'src/assets/generic-main.rs'),
+          sourcePath: resolve(__dirname, '../assets/generic-main.rs'),
         }),
       );
     }
@@ -163,7 +163,7 @@ export class RustProjectBase extends TypeScriptProject {
     for (const item of manifest.example ?? []) {
       this._addComponent(
         new SampleFile(this, `${this.examplesDir}/${item.name}.rs`, {
-          sourcePath: resolve(this.projectRoot, 'src/assets/generic-main.rs'),
+          sourcePath: resolve(__dirname, '../assets/generic-main.rs'),
         }),
       );
     }
@@ -171,7 +171,7 @@ export class RustProjectBase extends TypeScriptProject {
     for (const item of manifest.bench ?? []) {
       this._addComponent(
         new SampleFile(this, `${this.benchesDir}/${item.name}.rs`, {
-          sourcePath: resolve(this.projectRoot, 'src/assets/generic-main.rs'),
+          sourcePath: resolve(__dirname, '../assets/generic-main.rs'),
         }),
       );
     }
