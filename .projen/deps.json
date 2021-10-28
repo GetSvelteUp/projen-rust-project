@@ -39,6 +39,10 @@
       "type": "build"
     },
     {
+      "name": "fs-extra",
+      "type": "build"
+    },
+    {
       "name": "jest",
       "type": "build"
     },

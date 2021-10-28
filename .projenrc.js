@@ -1,4 +1,8 @@
+const fs = require('fs-extra');
+
 const { TypeScriptProject, NpmAccess, JsiiProject } = require('projen');
+
+const readme = fs.readFileSync('./README.md').toString();
 
 const project = new JsiiProject({
   defaultReleaseBranch: 'main',
@@ -10,7 +14,7 @@ const project = new JsiiProject({
   repository: 'https://github.com/GetSvelteUp/projen-rust-project.git',
 
   deps: ['projen', 'fs-extra'],
-  devDeps: ['@types/fs-extra@^8', 'projen'],
+  devDeps: ['@types/fs-extra@^8', 'projen', 'fs-extra'],
   peerDeps: ['projen'],
   bundledDeps: ['fs-extra'],
 
@@ -20,6 +24,8 @@ const project = new JsiiProject({
   githubOptions: {
     authorName: 'GetSvelteUp',
   },
+
+  readme: { filename: 'README.md', contents: readme },
 
   docgen: false,
   codeCov: true,
