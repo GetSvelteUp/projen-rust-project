@@ -2,7 +2,7 @@ const { TypeScriptProject, NpmAccess, JsiiProject } = require('projen');
 
 const project = new JsiiProject({
   defaultReleaseBranch: 'main',
-  name: '@svelte-up/projen-rust-project',
+  name: '@GetSvelteUp/projen-rust-project',
   authorName: 'GetSvelteUp',
   authorEmail: 'michael@svelteup.io',
   authorUrl: 'https://twitter.com/edelman215',
@@ -17,13 +17,17 @@ const project = new JsiiProject({
   releaseToNpm: true,
   npmAccess: NpmAccess.PUBLIC,
 
+  githubOptions: {
+    authorName: 'GetSvelteUp',
+  },
+
   docgen: true,
   codeCov: true,
   dependabot: true,
 
   npmDistTag: 'latest',
-  // npmRegistryUrl: 'https://npm.pkg.github.com',
-  npmTokenSecret: 'NPM_REGISTRY_TOKEN',
+  npmRegistryUrl: 'https://npm.pkg.github.com',
+  npmTokenSecret: 'NPM_TOKEN',
 
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */

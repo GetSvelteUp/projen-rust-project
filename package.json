@@ -1,5 +1,5 @@
 {
-  "name": "@svelte-up/projen-rust-project",
+  "name": "@GetSvelteUp/projen-rust-project",
   "repository": {
     "type": "git",
     "url": "https://github.com/GetSvelteUp/projen-rust-project.git"
