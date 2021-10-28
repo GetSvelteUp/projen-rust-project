@@ -38,6 +38,9 @@
       "steps": [
         {
           "exec": "jsii --silence-warnings=reserved-word --no-fix-peer-dependencies"
+        },
+        {
+          "exec": "cp -r ./src/assets ./lib/assets"
         }
       ]
     },

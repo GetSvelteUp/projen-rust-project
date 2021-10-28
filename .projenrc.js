@@ -37,5 +37,8 @@ const project = new JsiiProject({
 });
 
 project.addFields({ publishConfig: { access: 'public' } });
+// project.addTask("stash-assets", { exec: "cp -r ./src/assets ./lib/assets" });
+// project.buildTask.prependExec("cp -r ./src/assets ./lib/assets");
+project.compileTask.exec('cp -r ./src/assets ./lib/assets');
 
 project.synth();

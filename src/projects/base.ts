@@ -38,6 +38,7 @@ export class RustProjectBase extends TypeScriptProject {
   private readonly examplesDir = resolve(this.projectRoot, 'examples');
   private readonly testsDir = resolve(this.projectRoot, 'tests');
   private readonly benchesDir = resolve(this.projectRoot, 'benches');
+  private readonly cargoManifest: CargoManifest;
 
   constructor(protected readonly options: RustProjectBaseOptions) {
     super({
@@ -59,6 +60,23 @@ export class RustProjectBase extends TypeScriptProject {
     this.setScript('run', 'npx npm-run-all -p run:*');
 
     this.gitignore.exclude('target');
+
+    let { manifest } = this.options;
+
+    if (!manifest) {
+      manifest = {
+        package: {
+          name: this.name,
+          version: '0.0.1',
+          authors: ['Michael Edelman <michael@svelteup.io>'],
+          edition: '2021',
+          homepage: 'https://get.svelteup.today',
+        },
+        bin: [{ name: 'svelte', path: 'src/bin/svelte.rs' }],
+      };
+    }
+
+    this.cargoManifest = manifest;
   }
 
   private prepareDirectories() {
@@ -70,7 +88,7 @@ export class RustProjectBase extends TypeScriptProject {
   }
 
   private parseIncomingManifest() {
-    const { bin, bench, example, test } = this.options.manifest ?? {};
+    const { bin, bench, example, test } = this.cargoManifest ?? {};
 
     for (const item of bin ?? []) {
       this.binaries.set(item.name, item);
@@ -112,12 +130,12 @@ export class RustProjectBase extends TypeScriptProject {
     }
 
     return {
-      package: this.options.manifest.package,
-      lib: this.options.manifest.lib,
-      dependencies: this.options.manifest.dependencies,
-      devDependencies: this.options.manifest.devDependencies,
-      buildDependencies: this.options.manifest.buildDependencies,
-      profile: this.options.manifest.profile,
+      package: this.cargoManifest.package,
+      lib: this.cargoManifest.lib,
+      dependencies: this.cargoManifest.dependencies,
+      devDependencies: this.cargoManifest.devDependencies,
+      buildDependencies: this.cargoManifest.buildDependencies,
+      profile: this.cargoManifest.profile,
       bin,
       test,
       bench,
