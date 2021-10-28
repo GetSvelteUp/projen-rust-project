@@ -1,18 +1,18 @@
-import { resolve } from "path";
-import * as fs from "fs-extra";
+import { resolve } from 'path';
+import * as fs from 'fs-extra';
 import {
   SampleFile,
   TomlFile,
   TypeScriptProject,
   TypeScriptProjectOptions,
-} from "projen";
+} from 'projen';
 import {
   CargoManifest,
   CargoManifestBin,
   CargoManifestExample,
   CargoManifestTest,
   CargoManifestBench,
-} from "../types";
+} from '../types';
 
 export interface RustProjectBaseOptions extends TypeScriptProjectOptions {
   readonly manifest: CargoManifest;
@@ -20,24 +20,24 @@ export interface RustProjectBaseOptions extends TypeScriptProjectOptions {
 }
 
 export class RustProjectBase extends TypeScriptProject {
-  static readonly devDeps: string[] = ["npm-run-all"];
+  static readonly devDeps: string[] = ['npm-run-all'];
   static readonly scriptsToReplace: string[] = [
-    "test",
-    "build",
-    "dev",
-    "bench",
-    "run",
+    'test',
+    'build',
+    'dev',
+    'bench',
+    'run',
   ];
   private readonly binaries = new Map<string, CargoManifestBin>();
   private readonly examples = new Map<string, CargoManifestExample>();
   private readonly tests = new Map<string, CargoManifestTest>();
   private readonly benchmarks = new Map<string, CargoManifestBench>();
   private readonly projectRoot = process.cwd();
-  private readonly srcDir = resolve(this.projectRoot, "src");
-  private readonly binDir = resolve(this.srcDir, "bin");
-  private readonly examplesDir = resolve(this.projectRoot, "examples");
-  private readonly testsDir = resolve(this.projectRoot, "tests");
-  private readonly benchesDir = resolve(this.projectRoot, "benches");
+  private readonly srcDir = resolve(this.projectRoot, 'src');
+  private readonly binDir = resolve(this.srcDir, 'bin');
+  private readonly examplesDir = resolve(this.projectRoot, 'examples');
+  private readonly testsDir = resolve(this.projectRoot, 'tests');
+  private readonly benchesDir = resolve(this.projectRoot, 'benches');
   private readonly cargoManifest: CargoManifest;
 
   constructor(protected readonly options: RustProjectBaseOptions) {
@@ -53,13 +53,13 @@ export class RustProjectBase extends TypeScriptProject {
       this.removeScript(script);
     }
 
-    this.setScript("test", "npx npm-run-all -p test:*");
-    this.setScript("build", "npx npm-run-all -p build:*");
-    this.setScript("dev", "npx npm-run-all -p dev:*");
-    this.setScript("bench", "npx npm-run-all -p bench:*");
-    this.setScript("run", "npx npm-run-all -p run:*");
+    this.setScript('test', 'npx npm-run-all -p test:*');
+    this.setScript('build', 'npx npm-run-all -p build:*');
+    this.setScript('dev', 'npx npm-run-all -p dev:*');
+    this.setScript('bench', 'npx npm-run-all -p bench:*');
+    this.setScript('run', 'npx npm-run-all -p run:*');
 
-    this.gitignore.exclude("target");
+    this.gitignore.exclude('target');
 
     let { manifest } = this.options;
 
@@ -67,12 +67,12 @@ export class RustProjectBase extends TypeScriptProject {
       manifest = {
         package: {
           name: this.name,
-          version: "0.0.1",
-          authors: ["Michael Edelman <michael@svelteup.io>"],
-          edition: "2021",
-          homepage: "https://get.svelteup.today",
+          version: '0.0.1',
+          authors: ['Michael Edelman <michael@svelteup.io>'],
+          edition: '2021',
+          homepage: 'https://get.svelteup.today',
         },
-        bin: [{ name: "svelte", path: "src/bin/svelte.rs" }],
+        bin: [{ name: 'svelte', path: 'src/bin/svelte.rs' }],
       };
     }
 
@@ -147,32 +147,32 @@ export class RustProjectBase extends TypeScriptProject {
     for (const item of manifest.bin ?? []) {
       this._addComponent(
         new SampleFile(this, `${this.binDir}/${item.name}.rs`, {
-          sourcePath: resolve(this.projectRoot, "src/assets/generic-main.rs"),
-        })
+          sourcePath: resolve(this.projectRoot, 'src/assets/generic-main.rs'),
+        }),
       );
     }
 
     for (const item of manifest.test ?? []) {
       this._addComponent(
         new SampleFile(this, `${this.testsDir}/${item.name}.rs`, {
-          sourcePath: resolve(this.projectRoot, "src/assets/generic-main.rs"),
-        })
+          sourcePath: resolve(this.projectRoot, 'src/assets/generic-main.rs'),
+        }),
       );
     }
 
     for (const item of manifest.example ?? []) {
       this._addComponent(
         new SampleFile(this, `${this.examplesDir}/${item.name}.rs`, {
-          sourcePath: resolve(this.projectRoot, "src/assets/generic-main.rs"),
-        })
+          sourcePath: resolve(this.projectRoot, 'src/assets/generic-main.rs'),
+        }),
       );
     }
 
     for (const item of manifest.bench ?? []) {
       this._addComponent(
         new SampleFile(this, `${this.benchesDir}/${item.name}.rs`, {
-          sourcePath: resolve(this.projectRoot, "src/assets/generic-main.rs"),
-        })
+          sourcePath: resolve(this.projectRoot, 'src/assets/generic-main.rs'),
+        }),
       );
     }
   }
@@ -210,15 +210,15 @@ export class RustProjectBase extends TypeScriptProject {
     const { devDependencies, buildDependencies, ...rest } = manifest;
 
     this._addComponent(
-      new TomlFile(this, "Cargo.toml", {
+      new TomlFile(this, 'Cargo.toml', {
         committed: true,
         omitEmpty: true,
         obj: {
           ...rest,
-          "build-dependencies": buildDependencies,
-          "dev-dependencies": devDependencies,
+          'build-dependencies': buildDependencies,
+          'dev-dependencies': devDependencies,
         },
-      })
+      }),
     );
 
     for (const bin of this.binaries.keys()) {
@@ -244,7 +244,7 @@ export class RustProjectBase extends TypeScriptProject {
 
   private runExample = (
     name: string,
-    target: string = this.options.target
+    target: string = this.options.target,
   ) => `cargo run --example ${name} \ 
     --release \ 
     --target ${target}
@@ -255,7 +255,7 @@ export class RustProjectBase extends TypeScriptProject {
 
   private buildBin = (
     bin: string,
-    target: string = this.options.target
+    target: string = this.options.target,
   ) => `cargo build --release \ 
     --target ${target} \ 
     --bin ${bin} \ 
