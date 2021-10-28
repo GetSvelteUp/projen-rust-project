@@ -1,4 +1,4 @@
-import { resolve } from 'path';
+import { resolve, join } from 'path';
 import * as fs from 'fs-extra';
 import {
   SampleFile,
@@ -146,33 +146,45 @@ export class RustProjectBase extends TypeScriptProject {
   private generateSampleFiles(manifest: CargoManifest) {
     for (const item of manifest.bin ?? []) {
       this._addComponent(
-        new SampleFile(this, `/${this.binDir}/${item.name}.rs`, {
-          sourcePath: resolve(__dirname, '../assets/generic-main.rs'),
-        }),
+        new SampleFile(
+          this,
+          join(process.cwd(), 'src/bin', `${item.name}.rs`),
+          {
+            sourcePath: resolve(__dirname, '../assets/generic-main.rs'),
+          },
+        ),
       );
     }
 
     for (const item of manifest.test ?? []) {
       this._addComponent(
-        new SampleFile(this, `/${this.testsDir}/${item.name}.rs`, {
-          sourcePath: resolve(__dirname, '../assets/generic-main.rs'),
+        new SampleFile(this, join(process.cwd(), 'tests', `${item.name}.rs`), {
+          sourcePath: resolve(__dirname, '../assets/generic-test.rs'),
         }),
       );
     }
 
     for (const item of manifest.example ?? []) {
       this._addComponent(
-        new SampleFile(this, `/${this.examplesDir}/${item.name}.rs`, {
-          sourcePath: resolve(__dirname, '../assets/generic-main.rs'),
-        }),
+        new SampleFile(
+          this,
+          join(process.cwd(), 'examples', `${item.name}.rs`),
+          {
+            sourcePath: resolve(__dirname, '../assets/generic-example.rs'),
+          },
+        ),
       );
     }
 
     for (const item of manifest.bench ?? []) {
       this._addComponent(
-        new SampleFile(this, `/${this.benchesDir}/${item.name}.rs`, {
-          sourcePath: resolve(__dirname, '../assets/generic-main.rs'),
-        }),
+        new SampleFile(
+          this,
+          join(process.cwd(), 'benches', `${item.name}.rs`),
+          {
+            sourcePath: resolve(__dirname, '../assets/generic-bench.rs'),
+          },
+        ),
       );
     }
   }
@@ -253,14 +265,8 @@ export class RustProjectBase extends TypeScriptProject {
   private testSuite = (name: string, target: string = this.options.target) =>
     `cargo test ${name} -- --target ${target}`;
 
-  private buildBin = (
-    bin: string,
-    target: string = this.options.target,
-  ) => `cargo build --release \ 
-    --target ${target} \ 
-    --bin ${bin} \ 
-    --quiet
-  `;
+  private buildBin = (bin: string, target: string = this.options.target) =>
+    `cargo build --release ${target ? `--target ${target}` : ''} --bin ${bin}`;
 
   private benchMark = (mark: string, target: string = this.options.target) =>
     `cargo bench -- ${mark} --target ${target}`;
