@@ -1,11 +1,10 @@
 import { resolve, join } from 'path';
 import * as fs from 'fs-extra';
+import { SampleFile, TomlFile } from 'projen';
 import {
-  SampleFile,
-  TomlFile,
   TypeScriptProject,
   TypeScriptProjectOptions,
-} from 'projen';
+} from 'projen/lib/typescript';
 import {
   CargoManifest,
   CargoManifestBin,
