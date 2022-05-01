@@ -30,7 +30,7 @@ const project = new JsiiProject({
   docgen: false,
   codeCov: true,
   dependabot: false,
-  github: false,
+  github: true,
 
   npmDistTag: "latest",
   // npmRegistryUrl: 'https://npm.pkg.github.com',
