@@ -24,6 +24,9 @@ const project = new JsiiProject({
   githubOptions: {
     authorName: "grifhammer",
   },
+  eslintOptions: {
+    prettier: true,
+  },
 
   readme: { filename: "README.md", contents: readme },
 
