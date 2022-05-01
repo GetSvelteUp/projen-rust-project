@@ -1,17 +1,17 @@
 const fs = require("fs-extra");
+const { JsiiProject } = require("projen/lib/cdk");
 
-const { TypeScriptProject, NpmAccess, JsiiProject } = require("projen");
+const { NpmAccess } = require("projen/lib/javascript");
 
 const readme = fs.readFileSync("./README.md").toString();
 
 const project = new JsiiProject({
   defaultReleaseBranch: "main",
-  name: "@svelte-up/projen-rust-project",
-  authorName: "Michael Edelman",
-  authorEmail: "michael@svelteup.io",
-  authorUrl: "https://twitter.com/edelman215",
+  name: "@grifhammer/projen-rust-project",
+  authorName: "Griffin Hammer",
+  authorEmail: "grifhammer@grifhammer.com",
   authorOrganization: true,
-  repository: "https://github.com/GetSvelteUp/projen-rust-project.git",
+  repository: "https://github.com/grifhammer/projen-rust-project.git",
 
   deps: ["projen", "fs-extra"],
   devDeps: ["@types/fs-extra@^8", "projen", "fs-extra"],
@@ -22,7 +22,7 @@ const project = new JsiiProject({
   npmAccess: NpmAccess.PUBLIC,
 
   githubOptions: {
-    authorName: "GetSvelteUp",
+    authorName: "grifhammer",
   },
 
   readme: { filename: "README.md", contents: readme },
