@@ -3,8 +3,7 @@ import * as fs from 'fs-extra';
 import {
   SampleFile,
   TomlFile,
-  TypeScriptProject,
-  TypeScriptProjectOptions,
+  typescript,
 } from 'projen';
 import {
   CargoManifest,
@@ -14,12 +13,12 @@ import {
   CargoManifestBench,
 } from '../types';
 
-export interface RustProjectBaseOptions extends TypeScriptProjectOptions {
+export interface RustProjectBaseOptions extends typescript.TypeScriptProjectOptions {
   readonly manifest: CargoManifest;
   readonly target: string;
 }
 
-export class RustProjectBase extends TypeScriptProject {
+export class RustProjectBase extends typescript.TypeScriptProject {
   static readonly devDeps: string[] = ['npm-run-all'];
   static readonly scriptsToReplace: string[] = [
     'test',

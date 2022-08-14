@@ -1,10 +1,10 @@
 const fs = require("fs-extra");
 
-const { TypeScriptProject, NpmAccess, JsiiProject } = require("projen");
+const { javascript, cdk } = require("projen");
 
 const readme = fs.readFileSync("./README.md").toString();
 
-const project = new JsiiProject({
+const project = new cdk.JsiiProject({
   defaultReleaseBranch: "main",
   name: "@svelte-up/projen-rust-project",
   authorName: "Michael Edelman",
@@ -19,7 +19,7 @@ const project = new JsiiProject({
   bundledDeps: ["fs-extra"],
 
   releaseToNpm: true,
-  npmAccess: NpmAccess.PUBLIC,
+  npmAccess: javascript.NpmAccess.PUBLIC,
 
   githubOptions: {
     authorName: "GetSvelteUp",
